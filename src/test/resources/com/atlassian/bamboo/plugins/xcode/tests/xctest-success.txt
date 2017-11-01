@@ -1,0 +1,35 @@
+Test Suite 'All tests' started at 2013-10-16 18:30:27 +0000
+Test Suite 'SDK Unit Tests.xctest' started at 2013-10-16 18:30:27 +0000
+Test Suite 'SDK_Unit_Tests' started at 2013-10-16 18:30:27 +0000
+Test Case '-[SDK_Unit_Tests testAdGroupLiftCookie]' started.
+Test Case '-[SDK_Unit_Tests testAdGroupLiftCookie]' passed (0.173 seconds).
+Test Case '-[SDK_Unit_Tests testAdGroupParse]' started.
+Test Case '-[SDK_Unit_Tests testAdGroupParse]' passed (0.022 seconds).
+Test Case '-[SDK_Unit_Tests testAdGroupParseAdsWhenLandscapeAndPortraitIDsAreDifferent]' started.
+Test Case '-[SDK_Unit_Tests testAdGroupParseAdsWhenLandscapeAndPortraitIDsAreDifferent]' passed (0.056 seconds).
+Test Case '-[SDK_Unit_Tests testAdGroupParseAdsWhenNoAds]' started.
+Test Case '-[SDK_Unit_Tests testAdGroupParseAdsWhenNoAds]' passed (0.000 seconds).
+Test Case '-[SDK_Unit_Tests testAdGroupParseAdsWhenPortraitAndLandscapeIDsAreTheSame]' started.
+Test Case '-[SDK_Unit_Tests testAdGroupParseAdsWhenPortraitAndLandscapeIDsAreTheSame]' passed (0.000 seconds).
+Test Case '-[SDK_Unit_Tests testAdGroupPutInCorrectOrientation]' started.
+2013-10-16 11:30:28.000 xctest[17342:303] adunit (null) adgroup l
+Test Case '-[SDK_Unit_Tests testAdGroupPutInCorrectOrientation]' passed (0.001 seconds).
+Test Case '-[SDK_Unit_Tests testParseAdFromHTMLType]' started.
+Test Case '-[SDK_Unit_Tests testParseAdFromHTMLType]' passed (0.021 seconds).
+Test Case '-[SDK_Unit_Tests testParseAdFromImageType]' started.
+Test Case '-[SDK_Unit_Tests testParseAdFromImageType]' passed (0.000 seconds).
+Test Case '-[SDK_Unit_Tests testParseAdFromUnknownType]' started.
+Test Case '-[SDK_Unit_Tests testParseAdFromUnknownType]' passed (0.000 seconds).
+Test Case '-[SDK_Unit_Tests testParseAdInjectMraidJS]' started.
+Test Case '-[SDK_Unit_Tests testParseAdInjectMraidJS]' passed (0.006 seconds).
+Test Case '-[SDK_Unit_Tests testParseCreativeFullscreen]' started.
+Test Case '-[SDK_Unit_Tests testParseCreativeFullscreen]' passed (0.000 seconds).
+Test Case '-[SDK_Unit_Tests testParseCreativeNonFullscreen]' started.
+Test Case '-[SDK_Unit_Tests testParseCreativeNonFullscreen]' passed (0.000 seconds).
+Test Suite 'SDK_Unit_Tests' finished at 2013-10-16 18:30:28 +0000.
+Executed 12 tests, with 0 failures (0 unexpected) in 0.281 (0.282) seconds
+Test Suite 'SDK Unit Tests.xctest' finished at 2013-10-16 18:30:28 +0000.
+Executed 12 tests, with 0 failures (0 unexpected) in 0.281 (0.282) seconds
+Test Suite 'All tests' finished at 2013-10-16 18:30:28 +0000.
+Executed 12 tests, with 0 failures (0 unexpected) in 0.281 (0.285) seconds
+** TEST SUCCEEDED **

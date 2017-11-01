@@ -1,0 +1,1 @@
+[@ww.textfield labelKey="test.logFile" name="log_file" required="true" cssClass="long-field"/]

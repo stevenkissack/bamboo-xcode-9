@@ -1,0 +1,1254 @@
+Test Suite 'All tests' started at 2015-12-22 13:49:33.734
+Test Suite 'Quick.framework' started at 2015-12-22 13:49:33.735
+Test Suite 'Quick.framework' passed at 2015-12-22 13:49:33.736.
+
+Test Suite 'FBSnapshotTestCase.framework' started at 2015-12-22 13:49:33.736
+Test Suite 'FBSnapshotTestCase.framework' passed at 2015-12-22 13:49:33.736.
+
+Test Suite 'JIRATests.xctest' started at 2015-12-22 13:49:33.737
+Test Suite 'APIServiceErrorsTests' started at 2015-12-22 13:49:33.737
+Test Case '-[JIRATests.APIServiceErrorsTests testThatErrorFromResponseReturnsCorrectErrorWithNilResponse]' started.
+Test Case '-[JIRATests.APIServiceErrorsTests testThatErrorFromResponseReturnsCorrectErrorWithNilResponse]' passed (0.001 seconds).
+Test Case '-[JIRATests.APIServiceErrorsTests testThatErrorFromResponseReturnsError]' started.
+Test Case '-[JIRATests.APIServiceErrorsTests testThatErrorFromResponseReturnsError]' passed (0.001 seconds).
+Test Case '-[JIRATests.APIServiceErrorsTests testThatErrorFromResponseReturnsNilWithEmptyData]' started.
+Test Case '-[JIRATests.APIServiceErrorsTests testThatErrorFromResponseReturnsNilWithEmptyData]' passed (0.000 seconds).
+Test Case '-[JIRATests.APIServiceErrorsTests testThatErrorFromResponseReturnsNilWithEmptyErrorData]' started.
+Test Case '-[JIRATests.APIServiceErrorsTests testThatErrorFromResponseReturnsNilWithEmptyErrorData]' passed (0.000 seconds).
+Test Case '-[JIRATests.APIServiceErrorsTests testThatErrorWithMessageReturnsCorrectErrorMessages]' started.
+Test Case '-[JIRATests.APIServiceErrorsTests testThatErrorWithMessageReturnsCorrectErrorMessages]' passed (0.001 seconds).
+Test Case '-[JIRATests.APIServiceErrorsTests testThatErrorWithMessageReturnsCorrectErrorMessagesWithDescription]' started.
+Test Case '-[JIRATests.APIServiceErrorsTests testThatErrorWithMessageReturnsCorrectErrorMessagesWithDescription]' passed (0.018 seconds).
+Test Case '-[JIRATests.APIServiceErrorsTests testThatErrorWithMessageReturnsCorrectErrorOfMultipleErrors]' started.
+Test Case '-[JIRATests.APIServiceErrorsTests testThatErrorWithMessageReturnsCorrectErrorOfMultipleErrors]' passed (0.001 seconds).
+Test Case '-[JIRATests.APIServiceErrorsTests testThatErrorWithMessageReturnsNilWithEmptyMessage]' started.
+Test Case '-[JIRATests.APIServiceErrorsTests testThatErrorWithMessageReturnsNilWithEmptyMessage]' passed (0.001 seconds).
+Test Suite 'APIServiceErrorsTests' passed at 2015-12-22 13:49:33.855.
+
+Test Suite 'AppConfigTests' started at 2015-12-22 13:49:33.855
+Test Case '-[JIRATests.AppConfigTests testCloseSession]' started.
+Test Case '-[JIRATests.AppConfigTests testCloseSession]' passed (0.001 seconds).
+Test Case '-[JIRATests.AppConfigTests testDeinitSession]' started.
+2015-12-22 13:49:33.857 [Debug] [main] [SchemaVersioning.swift:29] incompatibleSchemaCheck(_:withCurrentSchemaVersion:) > Last schema version: 10, current app schema version: 10
+2015-12-22 13:49:33.858 [Debug] [main] [SchemaVersioning.swift:29] incompatibleSchemaCheck(_:withCurrentSchemaVersion:) > Last schema version: 10, current app schema version: 10
+Test Case '-[JIRATests.AppConfigTests testDeinitSession]' passed (0.002 seconds).
+Test Case '-[JIRATests.AppConfigTests testRestService]' started.
+2015-12-22 13:49:33.860 [Debug] [main] [SchemaVersioning.swift:29] incompatibleSchemaCheck(_:withCurrentSchemaVersion:) > Last schema version: 10, current app schema version: 10
+2015-12-22 13:49:33.861 [Debug] [main] [SchemaVersioning.swift:29] incompatibleSchemaCheck(_:withCurrentSchemaVersion:) > Last schema version: 10, current app schema version: 10
+2015-12-22 13:49:33.862 [Debug] [main] [SchemaVersioning.swift:29] incompatibleSchemaCheck(_:withCurrentSchemaVersion:) > Last schema version: 10, current app schema version: 10
+2015-12-22 13:49:33.862 [Debug] [main] [SchemaVersioning.swift:29] incompatibleSchemaCheck(_:withCurrentSchemaVersion:) > Last schema version: 10, current app schema version: 10
+Test Case '-[JIRATests.AppConfigTests testRestService]' passed (0.003 seconds).
+Test Case '-[JIRATests.AppConfigTests testResumeSession]' started.
+2015-12-22 13:49:33.864 [Debug] [main] [SchemaVersioning.swift:29] incompatibleSchemaCheck(_:withCurrentSchemaVersion:) > Last schema version: 10, current app schema version: 10
+2015-12-22 13:49:33.864 [Debug] [main] [SchemaVersioning.swift:29] incompatibleSchemaCheck(_:withCurrentSchemaVersion:) > Last schema version: 10, current app schema version: 10
+Test Case '-[JIRATests.AppConfigTests testResumeSession]' passed (0.002 seconds).
+Test Case '-[JIRATests.AppConfigTests testSaveHostIntoUserDefault]' started.
+2015-12-22 13:49:33.867 [Debug] [main] [SchemaVersioning.swift:29] incompatibleSchemaCheck(_:withCurrentSchemaVersion:) > Last schema version: 10, current app schema version: 10
+2015-12-22 13:49:33.867 [Debug] [main] [SchemaVersioning.swift:29] incompatibleSchemaCheck(_:withCurrentSchemaVersion:) > Last schema version: 10, current app schema version: 10
+Test Case '-[JIRATests.AppConfigTests testSaveHostIntoUserDefault]' passed (0.002 seconds).
+Test Case '-[JIRATests.AppConfigTests testStartNewSession]' started.
+2015-12-22 13:49:33.869 [Debug] [main] [SchemaVersioning.swift:29] incompatibleSchemaCheck(_:withCurrentSchemaVersion:) > Last schema version: 10, current app schema version: 10
+2015-12-22 13:49:33.869 [Debug] [main] [SchemaVersioning.swift:29] incompatibleSchemaCheck(_:withCurrentSchemaVersion:) > Last schema version: 10, current app schema version: 10
+Test Case '-[JIRATests.AppConfigTests testStartNewSession]' passed (0.002 seconds).
+Test Suite 'AppConfigTests' passed at 2015-12-22 13:49:33.871.
+
+Test Suite 'ArrayElementEquatableTests' started at 2015-12-22 13:49:33.872
+Test Case '-[JIRATests.ArrayElementEquatableTests Can_found_different_between_2_array__Found_reloaded_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineExtensionArrayElementEquatableTestsswift_9]' started.
+Test Case '-[JIRATests.ArrayElementEquatableTests Can_found_different_between_2_array__Found_reloaded_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineExtensionArrayElementEquatableTestsswift_9]' passed (0.002 seconds).
+Test Case '-[JIRATests.ArrayElementEquatableTests Can_found_different_between_2_array__Found_inserted_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineExtensionArrayElementEquatableTestsswift_16]' started.
+Test Case '-[JIRATests.ArrayElementEquatableTests Can_found_different_between_2_array__Found_inserted_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineExtensionArrayElementEquatableTestsswift_16]' passed (0.001 seconds).
+Test Case '-[JIRATests.ArrayElementEquatableTests Can_found_different_between_2_array__Found_deleted_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineExtensionArrayElementEquatableTestsswift_24]' started.
+Test Case '-[JIRATests.ArrayElementEquatableTests Can_found_different_between_2_array__Found_deleted_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineExtensionArrayElementEquatableTestsswift_24]' passed (0.001 seconds).
+Test Suite 'ArrayElementEquatableTests' passed at 2015-12-22 13:49:33.877.
+
+Test Suite 'ArrayExtensionSpec' started at 2015-12-22 13:49:33.878
+Test Case '-[JIRATests.ArrayExtensionSpec Array_pickFirst__picks_one_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineExtensionArrayExtensionTestsswift_9]' started.
+Test Case '-[JIRATests.ArrayExtensionSpec Array_pickFirst__picks_one_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineExtensionArrayExtensionTestsswift_9]' passed (0.001 seconds).
+Test Case '-[JIRATests.ArrayExtensionSpec Array__is_not_empty_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineExtensionArrayExtensionTestsswift_19]' started.
+Test Case '-[JIRATests.ArrayExtensionSpec Array__is_not_empty_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineExtensionArrayExtensionTestsswift_19]' passed (0.001 seconds).
+Test Case '-[JIRATests.ArrayExtensionSpec Array__can_categorise_itself_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineExtensionArrayExtensionTestsswift_27]' started.
+Test Case '-[JIRATests.ArrayExtensionSpec Array__can_categorise_itself_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineExtensionArrayExtensionTestsswift_27]' passed (0.002 seconds).
+Test Case '-[JIRATests.ArrayExtensionSpec toDictionary__appends_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineExtensionArrayExtensionTestsswift_36]' started.
+Test Case '-[JIRATests.ArrayExtensionSpec toDictionary__appends_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineExtensionArrayExtensionTestsswift_36]' passed (0.001 seconds).
+Test Suite 'ArrayExtensionSpec' passed at 2015-12-22 13:49:33.885.
+
+Test Suite 'CardRationaleTests' started at 2015-12-22 13:49:33.886
+Test Case '-[JIRATests.CardRationaleTests testIssueCardRationale]' started.
+Test Case '-[JIRATests.CardRationaleTests testIssueCardRationale]' passed (0.003 seconds).
+Test Suite 'CardRationaleTests' passed at 2015-12-22 13:49:33.889.
+
+Test Suite 'CardTests' started at 2015-12-22 13:49:33.890
+Test Case '-[JIRATests.CardTests testCardContainsOnlyOneCommentEvent]' started.
+2015-12-22 13:49:33.893 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index context as it's not mapped
+Test Case '-[JIRATests.CardTests testCardContainsOnlyOneCommentEvent]' passed (0.005 seconds).
+Test Case '-[JIRATests.CardTests testHappyMap]' started.
+Test Case '-[JIRATests.CardTests testHappyMap]' passed (0.003 seconds).
+Test Case '-[JIRATests.CardTests testMultipleCommentEventCard]' started.
+2015-12-22 13:49:33.933 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index context as it's not mapped
+Test Case '-[JIRATests.CardTests testMultipleCommentEventCard]' passed (0.035 seconds).
+Test Case '-[JIRATests.CardTests testMultipleMentionEventCard]' started.
+2015-12-22 13:49:33.939 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index context as it's not mapped
+Test Case '-[JIRATests.CardTests testMultipleMentionEventCard]' passed (0.005 seconds).
+Test Suite 'CardTests' passed at 2015-12-22 13:49:33.940.
+
+Test Suite 'CommentAuthorTests' started at 2015-12-22 13:49:33.941
+Test Case '-[JIRATests.CommentAuthorTests testMapJSONCommentAuthor]' started.
+2015-12-22 13:49:33.942 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index self as it's not mapped
+2015-12-22 13:49:33.943 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index key as it's not mapped
+2015-12-22 13:49:33.943 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index timeZone as it's not mapped
+Test Case '-[JIRATests.CommentAuthorTests testMapJSONCommentAuthor]' passed (0.003 seconds).
+Test Suite 'CommentAuthorTests' passed at 2015-12-22 13:49:33.945.
+
+Test Suite 'CommentTests' started at 2015-12-22 13:49:33.946
+Test Case '-[JIRATests.CommentTests testHappyMap]' started.
+2015-12-22 13:49:33.947 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index timeZone as it's not mapped
+2015-12-22 13:49:33.948 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index self as it's not mapped
+2015-12-22 13:49:33.948 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index key as it's not mapped
+2015-12-22 13:49:33.949 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index timeZone as it's not mapped
+2015-12-22 13:49:33.950 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index self as it's not mapped
+2015-12-22 13:49:33.950 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index key as it's not mapped
+2015-12-22 13:49:33.951 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index self as it's not mapped
+2015-12-22 13:49:33.951 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index body as it's not mapped
+Test Case '-[JIRATests.CommentTests testHappyMap]' passed (0.007 seconds).
+Test Suite 'CommentTests' passed at 2015-12-22 13:49:33.954.
+
+Test Suite 'ConstantSpec' started at 2015-12-22 13:49:33.955
+Test Case '-[JIRATests.ConstantSpec Constants_of__UserDefault__is_host_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineConfigConstantTestsswift_10]' started.
+Test Case '-[JIRATests.ConstantSpec Constants_of__UserDefault__is_host_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineConfigConstantTestsswift_10]' passed (0.001 seconds).
+Test Case '-[JIRATests.ConstantSpec Constants_of__API_Endpoint__Card__is_domain_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineConfigConstantTestsswift_17]' started.
+Test Case '-[JIRATests.ConstantSpec Constants_of__API_Endpoint__Card__is_domain_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineConfigConstantTestsswift_17]' passed (0.001 seconds).
+Test Case '-[JIRATests.ConstantSpec Constants_of__API_Endpoint__Extension__is_fieldOrder_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineConfigConstantTestsswift_23]' started.
+Test Case '-[JIRATests.ConstantSpec Constants_of__API_Endpoint__Extension__is_fieldOrder_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineConfigConstantTestsswift_23]' passed (0.001 seconds).
+Test Case '-[JIRATests.ConstantSpec Constants_of__API_Endpoint__REST__is_User_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineConfigConstantTestsswift_29]' started.
+Test Case '-[JIRATests.ConstantSpec Constants_of__API_Endpoint__REST__is_User_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineConfigConstantTestsswift_29]' passed (0.001 seconds).
+Test Case '-[JIRATests.ConstantSpec Constants_of__API_Endpoint__REST__editIssue_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineConfigConstantTestsswift_33]' started.
+Test Case '-[JIRATests.ConstantSpec Constants_of__API_Endpoint__REST__editIssue_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineConfigConstantTestsswift_33]' passed (0.001 seconds).
+Test Case '-[JIRATests.ConstantSpec Constants_of__Regex_Pattern__MentionedUser__support___huy_le__UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineConfigConstantTestsswift_48]' started.
+Test Case '-[JIRATests.ConstantSpec Constants_of__Regex_Pattern__MentionedUser__support___huy_le__UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineConfigConstantTestsswift_48]' passed (0.001 seconds).
+Test Case '-[JIRATests.ConstantSpec Constants_of__Regex_Pattern__MentionedUser__support___huy_le__UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineConfigConstantTestsswift_52]' started.
+Test Case '-[JIRATests.ConstantSpec Constants_of__Regex_Pattern__MentionedUser__support___huy_le__UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineConfigConstantTestsswift_52]' passed (0.001 seconds).
+Test Case '-[JIRATests.ConstantSpec Constants_of__Regex_Pattern__MentionedUser__support___huy_le__UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineConfigConstantTestsswift_56]' started.
+Test Case '-[JIRATests.ConstantSpec Constants_of__Regex_Pattern__MentionedUser__support___huy_le__UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineConfigConstantTestsswift_56]' passed (0.001 seconds).
+Test Case '-[JIRATests.ConstantSpec Constants_of__Regex_Pattern__MentionedUser__support___huy_le__UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineConfigConstantTestsswift_60]' started.
+Test Case '-[JIRATests.ConstantSpec Constants_of__Regex_Pattern__MentionedUser__support___huy_le__UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineConfigConstantTestsswift_60]' passed (0.001 seconds).
+Test Suite 'ConstantSpec' passed at 2015-12-22 13:49:33.969.
+
+Test Suite 'CreateFieldTests' started at 2015-12-22 13:49:33.969
+Test Case '-[JIRATests.CreateFieldTests testIssueTypeField]' started.
+2015-12-22 13:49:33.971 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index autoCompleteUrl as it's not mapped
+2015-12-22 13:49:33.971 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:33.971 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:33.971 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:33.972 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:33.972 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:33.972 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:33.972 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:33.973 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:33.973 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:33.973 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:33.973 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:33.974 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:33.974 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:33.974 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:33.975 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:33.975 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:33.975 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:33.976 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:33.976 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:33.976 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:33.976 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index autoCompleteUrl as it's not mapped
+2015-12-22 13:49:33.976 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:33.977 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:33.977 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:33.977 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:33.979 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:33.979 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:33.979 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:33.980 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:33.980 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:33.980 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:33.981 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:33.981 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:33.982 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:33.982 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:33.982 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index autoCompleteUrl as it's not mapped
+2015-12-22 13:49:33.983 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:33.983 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:33.983 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:33.983 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:33.984 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:33.984 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:33.984 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:33.985 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:33.985 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:33.985 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:33.986 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index autoCompleteUrl as it's not mapped
+2015-12-22 13:49:33.986 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:33.986 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:33.986 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:33.987 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:33.987 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:33.988 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:33.988 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:33.989 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:33.989 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:33.989 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:33.989 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+Test Case '-[JIRATests.CreateFieldTests testIssueTypeField]' passed (0.021 seconds).
+Test Case '-[JIRATests.CreateFieldTests testPrimaryKey]' started.
+2015-12-22 13:49:33.992 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index autoCompleteUrl as it's not mapped
+2015-12-22 13:49:33.992 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:33.992 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:33.993 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:33.993 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:33.993 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:33.993 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:33.994 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:33.994 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:33.994 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:33.995 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:33.995 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:33.995 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:33.995 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:33.995 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:33.996 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:33.996 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:33.996 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:33.997 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:33.997 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:33.997 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:33.997 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index autoCompleteUrl as it's not mapped
+2015-12-22 13:49:33.998 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:33.998 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:33.998 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:33.998 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:33.999 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:34.000 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.000 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.001 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:34.001 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.001 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.001 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.002 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:34.002 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.003 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.003 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index autoCompleteUrl as it's not mapped
+2015-12-22 13:49:34.004 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:34.004 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.004 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.004 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.005 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:34.005 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.005 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.006 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:34.006 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.006 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.007 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index autoCompleteUrl as it's not mapped
+2015-12-22 13:49:34.007 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:34.007 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.007 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.008 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.008 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:34.009 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.009 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.010 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:34.010 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.010 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.010 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+Test Case '-[JIRATests.CreateFieldTests testPrimaryKey]' passed (0.020 seconds).
+Test Case '-[JIRATests.CreateFieldTests testSummaryField]' started.
+2015-12-22 13:49:34.013 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index autoCompleteUrl as it's not mapped
+2015-12-22 13:49:34.013 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:34.013 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.014 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.014 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.014 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:34.015 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.015 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.015 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.016 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:34.016 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.017 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.017 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.017 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:34.017 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.018 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.018 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.018 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:34.019 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.019 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.019 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.020 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index autoCompleteUrl as it's not mapped
+2015-12-22 13:49:34.020 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:34.020 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.020 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.021 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.022 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:34.022 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.022 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.023 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:34.023 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.024 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.024 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.025 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:34.025 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.025 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.026 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index autoCompleteUrl as it's not mapped
+2015-12-22 13:49:34.026 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:34.026 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.027 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.027 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.027 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:34.028 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.028 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.029 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:34.029 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.029 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.030 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index autoCompleteUrl as it's not mapped
+2015-12-22 13:49:34.030 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:34.030 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.030 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.031 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.032 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:34.032 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.032 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.033 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index hasDefaultValue as it's not mapped
+2015-12-22 13:49:34.033 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.033 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.033 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+Test Case '-[JIRATests.CreateFieldTests testSummaryField]' passed (0.023 seconds).
+Test Suite 'CreateFieldTests' passed at 2015-12-22 13:49:34.035.
+
+Test Suite 'DateFieldCellModelTests' started at 2015-12-22 13:49:34.036
+Test Case '-[JIRATests.DateFieldCellModelTests testCustomDateField]' started.
+2015-12-22 13:49:34.037 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index expand as it's not mapped
+2015-12-22 13:49:34.037 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index self as it's not mapped
+[fg255,0,0;[bg;2015-12-22 13:49:34.042 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.updated[;
+[fg255,0,0;[bg;2015-12-22 13:49:34.042 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.updated[;
+2015-12-22 13:49:34.043 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index self as it's not mapped
+2015-12-22 13:49:34.044 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index self as it's not mapped
+2015-12-22 13:49:34.046 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index self as it's not mapped
+2015-12-22 13:49:34.047 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index key as it's not mapped
+2015-12-22 13:49:34.047 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index timeZone as it's not mapped
+2015-12-22 13:49:34.049 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index self as it's not mapped
+2015-12-22 13:49:34.049 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index subtask as it's not mapped
+2015-12-22 13:49:34.049 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index avatarId as it's not mapped
+Test Case '-[JIRATests.DateFieldCellModelTests testCustomDateField]' passed (0.015 seconds).
+Test Case '-[JIRATests.DateFieldCellModelTests testDueDateField]' started.
+2015-12-22 13:49:34.053 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index expand as it's not mapped
+2015-12-22 13:49:34.053 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index self as it's not mapped
+[fg255,0,0;[bg;2015-12-22 13:49:34.058 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.updated[;
+[fg255,0,0;[bg;2015-12-22 13:49:34.058 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.updated[;
+2015-12-22 13:49:34.059 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index self as it's not mapped
+2015-12-22 13:49:34.060 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index self as it's not mapped
+2015-12-22 13:49:34.062 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index self as it's not mapped
+2015-12-22 13:49:34.063 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index key as it's not mapped
+2015-12-22 13:49:34.063 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index timeZone as it's not mapped
+2015-12-22 13:49:34.065 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index self as it's not mapped
+2015-12-22 13:49:34.065 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index subtask as it's not mapped
+2015-12-22 13:49:34.065 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index avatarId as it's not mapped
+Test Case '-[JIRATests.DateFieldCellModelTests testDueDateField]' passed (0.015 seconds).
+Test Suite 'DateFieldCellModelTests' passed at 2015-12-22 13:49:34.067.
+
+Test Suite 'DictionaryExtensionSpec' started at 2015-12-22 13:49:34.068
+Test Case '-[JIRATests.DictionaryExtensionSpec Dict_extension__can_filter__in_happy_path__is_successful_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineExtensionDictionaryExtensionTestsswift_23]' started.
+Test Case '-[JIRATests.DictionaryExtensionSpec Dict_extension__can_filter__in_happy_path__is_successful_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineExtensionDictionaryExtensionTestsswift_23]' passed (0.001 seconds).
+Test Case '-[JIRATests.DictionaryExtensionSpec Dict_extension__can_filter__input_is_empty__is_empty_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineExtensionDictionaryExtensionTestsswift_34]' started.
+Test Case '-[JIRATests.DictionaryExtensionSpec Dict_extension__can_filter__input_is_empty__is_empty_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineExtensionDictionaryExtensionTestsswift_34]' passed (0.001 seconds).
+Test Case '-[JIRATests.DictionaryExtensionSpec Dict_extension__can_filter__input_is_nil__is_nil_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineExtensionDictionaryExtensionTestsswift_43]' started.
+Test Case '-[JIRATests.DictionaryExtensionSpec Dict_extension__can_filter__input_is_nil__is_nil_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineExtensionDictionaryExtensionTestsswift_43]' passed (0.001 seconds).
+Test Case '-[JIRATests.DictionaryExtensionSpec Dict_extension__can_map__with_int__is_successful_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineExtensionDictionaryExtensionTestsswift_53]' started.
+Test Case '-[JIRATests.DictionaryExtensionSpec Dict_extension__can_map__with_int__is_successful_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineExtensionDictionaryExtensionTestsswift_53]' passed (0.001 seconds).
+Test Case '-[JIRATests.DictionaryExtensionSpec Dict_extension__can_map__input_is_nil__be_nil_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineExtensionDictionaryExtensionTestsswift_65]' started.
+Test Case '-[JIRATests.DictionaryExtensionSpec Dict_extension__can_map__input_is_nil__be_nil_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineExtensionDictionaryExtensionTestsswift_65]' passed (0.001 seconds).
+Test Case '-[JIRATests.DictionaryExtensionSpec Dict_extension__can_append__with_normal_dict__is_successful_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineExtensionDictionaryExtensionTestsswift_75]' started.
+Test Case '-[JIRATests.DictionaryExtensionSpec Dict_extension__can_append__with_normal_dict__is_successful_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineExtensionDictionaryExtensionTestsswift_75]' passed (0.001 seconds).
+Test Case '-[JIRATests.DictionaryExtensionSpec Dict_extension__can_append__with_overlap_dict__second_will_replace_the_first_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineExtensionDictionaryExtensionTestsswift_84]' started.
+Test Case '-[JIRATests.DictionaryExtensionSpec Dict_extension__can_append__with_overlap_dict__second_will_replace_the_first_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineExtensionDictionaryExtensionTestsswift_84]' passed (0.001 seconds).
+Test Suite 'DictionaryExtensionSpec' passed at 2015-12-22 13:49:34.080.
+
+Test Suite 'DictionaryExtensionTest' started at 2015-12-22 13:49:34.081
+Test Case '-[JIRATests.DictionaryExtensionTest testFilterDictionary]' started.
+Test Case '-[JIRATests.DictionaryExtensionTest testFilterDictionary]' passed (0.001 seconds).
+Test Suite 'DictionaryExtensionTest' passed at 2015-12-22 13:49:34.083.
+
+Test Suite 'EditFieldTests' started at 2015-12-22 13:49:34.084
+Test Case '-[JIRATests.EditFieldTests testIssueTypeField]' started.
+2015-12-22 13:49:34.085 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.086 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.087 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index autoCompleteUrl as it's not mapped
+2015-12-22 13:49:34.087 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.087 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.087 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.088 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.088 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.088 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.089 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.089 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.089 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.090 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.090 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.091 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.091 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.091 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.092 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.092 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.093 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.093 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.095 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.095 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.096 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.096 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.097 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.097 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index autoCompleteUrl as it's not mapped
+2015-12-22 13:49:34.097 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.098 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.098 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.098 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index autoCompleteUrl as it's not mapped
+2015-12-22 13:49:34.098 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.099 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.099 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.100 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.100 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.101 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.101 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.102 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index autoCompleteUrl as it's not mapped
+2015-12-22 13:49:34.102 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.102 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.102 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.104 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.104 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+Test Case '-[JIRATests.EditFieldTests testIssueTypeField]' passed (0.022 seconds).
+Test Case '-[JIRATests.EditFieldTests testPrimaryKey]' started.
+2015-12-22 13:49:34.107 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.108 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.108 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index autoCompleteUrl as it's not mapped
+2015-12-22 13:49:34.108 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.109 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.109 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.109 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.110 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.110 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.110 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.111 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.111 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.111 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.112 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.112 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.112 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.112 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.113 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.113 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.113 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.114 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.115 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.115 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.116 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.116 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.116 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.117 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index autoCompleteUrl as it's not mapped
+2015-12-22 13:49:34.117 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.117 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.117 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.118 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index autoCompleteUrl as it's not mapped
+2015-12-22 13:49:34.118 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.118 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.118 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.119 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.119 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.120 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.120 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.121 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index autoCompleteUrl as it's not mapped
+2015-12-22 13:49:34.121 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.121 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.121 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.123 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.123 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+Test Case '-[JIRATests.EditFieldTests testPrimaryKey]' passed (0.018 seconds).
+Test Case '-[JIRATests.EditFieldTests testSummaryField]' started.
+2015-12-22 13:49:34.126 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.127 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.127 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index autoCompleteUrl as it's not mapped
+2015-12-22 13:49:34.127 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.127 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.128 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.128 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.128 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.129 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.129 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.129 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.130 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.130 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.130 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.130 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.131 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.131 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.131 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.132 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.132 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.132 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.133 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.133 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.134 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.135 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.135 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.135 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index autoCompleteUrl as it's not mapped
+2015-12-22 13:49:34.135 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.136 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.136 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.136 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index autoCompleteUrl as it's not mapped
+2015-12-22 13:49:34.136 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.137 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.137 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.137 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.137 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.138 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.138 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.139 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index autoCompleteUrl as it's not mapped
+2015-12-22 13:49:34.139 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.139 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+2015-12-22 13:49:34.140 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:34.141 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index operations as it's not mapped
+2015-12-22 13:49:34.141 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index schema as it's not mapped
+Test Case '-[JIRATests.EditFieldTests testSummaryField]' passed (0.018 seconds).
+Test Suite 'EditFieldTests' passed at 2015-12-22 13:49:34.143.
+
+Test Suite 'EventTests' started at 2015-12-22 13:49:34.144
+Test Case '-[JIRATests.EventTests testMapEventWithAssignEvent]' started.
+Test Case '-[JIRATests.EventTests testMapEventWithAssignEvent]' passed (0.005 seconds).
+Test Case '-[JIRATests.EventTests testMapEventWithCommentEvent]' started.
+Test Case '-[JIRATests.EventTests testMapEventWithCommentEvent]' passed (0.127 seconds).
+Test Case '-[JIRATests.EventTests testMapEventWithMentionEvent]' started.
+Test Case '-[JIRATests.EventTests testMapEventWithMentionEvent]' passed (0.004 seconds).
+Test Suite 'EventTests' passed at 2015-12-22 13:49:34.283.
+
+Test Suite 'FieldCellEditModelFactoryTests' started at 2015-12-22 13:49:34.283
+Test Case '-[JIRATests.FieldCellEditModelFactoryTests testCreateModel]' started.
+2015-12-22 13:49:34.285 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index expand as it's not mapped
+2015-12-22 13:49:34.285 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index self as it's not mapped
+[fg255,0,0;[bg;2015-12-22 13:49:34.290 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.updated[;
+[fg255,0,0;[bg;2015-12-22 13:49:34.291 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.updated[;
+2015-12-22 13:49:34.291 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index self as it's not mapped
+2015-12-22 13:49:34.291 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index subtask as it's not mapped
+2015-12-22 13:49:34.292 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index avatarId as it's not mapped
+Test Case '-[JIRATests.FieldCellEditModelFactoryTests testCreateModel]' passed (0.009 seconds).
+Test Case '-[JIRATests.FieldCellEditModelFactoryTests testCreateModelNil]' started.
+2015-12-22 13:49:34.294 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index expand as it's not mapped
+2015-12-22 13:49:34.294 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index self as it's not mapped
+[fg255,0,0;[bg;2015-12-22 13:49:34.299 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.updated[;
+[fg255,0,0;[bg;2015-12-22 13:49:34.299 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.updated[;
+Test Case '-[JIRATests.FieldCellEditModelFactoryTests testCreateModelNil]' passed (0.006 seconds).
+Test Suite 'FieldCellEditModelFactoryTests' passed at 2015-12-22 13:49:34.300.
+
+Test Suite 'FieldOrderOperatorSpec' started at 2015-12-22 13:49:34.301
+Test Case '-[JIRATests.FieldOrderOperatorSpec Transform_API_Json_to_a_Mappable_JSON__has_good_json__is_success_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineOperatorFieldOrderOperatorFieldOrderOperatorSpecTestsswift_14]' started.
+Test Case '-[JIRATests.FieldOrderOperatorSpec Transform_API_Json_to_a_Mappable_JSON__has_good_json__is_success_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineOperatorFieldOrderOperatorFieldOrderOperatorSpecTestsswift_14]' passed (0.003 seconds).
+Test Case '-[JIRATests.FieldOrderOperatorSpec Transform_API_Json_to_a_Mappable_JSON__has_bad_json__is_nil_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineOperatorFieldOrderOperatorFieldOrderOperatorSpecTestsswift_23]' started.
+Test Case '-[JIRATests.FieldOrderOperatorSpec Transform_API_Json_to_a_Mappable_JSON__has_bad_json__is_nil_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineOperatorFieldOrderOperatorFieldOrderOperatorSpecTestsswift_23]' passed (0.147 seconds).
+Test Case '-[JIRATests.FieldOrderOperatorSpec Transform_API_Json_to_a_Mappable_JSON__hasn_t_field_configuration__has_empty_output_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineOperatorFieldOrderOperatorFieldOrderOperatorSpecTestsswift_31]' started.
+Test Case '-[JIRATests.FieldOrderOperatorSpec Transform_API_Json_to_a_Mappable_JSON__hasn_t_field_configuration__has_empty_output_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineOperatorFieldOrderOperatorFieldOrderOperatorSpecTestsswift_31]' passed (0.008 seconds).
+Test Suite 'FieldOrderOperatorSpec' passed at 2015-12-22 13:49:34.461.
+
+Test Suite 'FieldTypeTests' started at 2015-12-22 13:49:34.462
+Test Case '-[JIRATests.FieldTypeTests testInit]' started.
+Test Case '-[JIRATests.FieldTypeTests testInit]' passed (0.001 seconds).
+Test Case '-[JIRATests.FieldTypeTests testInitUnknown]' started.
+[fg169,169,169;[bg;2015-12-22 13:49:34.464 [Debug] [main] [FieldType.swift:42] from > charlie doesnt know this has not yet been supported.[;
+Test Case '-[JIRATests.FieldTypeTests testInitUnknown]' passed (0.001 seconds).
+Test Case '-[JIRATests.FieldTypeTests testInitWithArray]' started.
+Test Case '-[JIRATests.FieldTypeTests testInitWithArray]' passed (0.000 seconds).
+Test Suite 'FieldTypeTests' passed at 2015-12-22 13:49:34.466.
+
+Test Suite 'IconTextFieldCellSpec' started at 2015-12-22 13:49:34.467
+Test Case '-[JIRATests.IconTextFieldCellSpec Display_IconTextFieldCell__with_Priority_field__has_text_label_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleComponentFieldCellIconTextFieldCellTestsswift_36]' started.
+Test Case '-[JIRATests.IconTextFieldCellSpec Display_IconTextFieldCell__with_Priority_field__has_text_label_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleComponentFieldCellIconTextFieldCellTestsswift_36]' passed (1.002 seconds).
+Test Case '-[JIRATests.IconTextFieldCellSpec Display_IconTextFieldCell__with_Priority_field__has_detail_text_label_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleComponentFieldCellIconTextFieldCellTestsswift_40]' started.
+Test Case '-[JIRATests.IconTextFieldCellSpec Display_IconTextFieldCell__with_Priority_field__has_detail_text_label_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleComponentFieldCellIconTextFieldCellTestsswift_40]' passed (1.011 seconds).
+Test Case '-[JIRATests.IconTextFieldCellSpec Display_IconTextFieldCell__with_Priority_field__has_icon_image_view_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleComponentFieldCellIconTextFieldCellTestsswift_44]' started.
+Test Case '-[JIRATests.IconTextFieldCellSpec Display_IconTextFieldCell__with_Priority_field__has_icon_image_view_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleComponentFieldCellIconTextFieldCellTestsswift_44]' passed (2.025 seconds).
+Test Case '-[JIRATests.IconTextFieldCellSpec Display_IconTextFieldCell__with_User_field__has_text_label_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleComponentFieldCellIconTextFieldCellTestsswift_55]' started.
+Test Case '-[JIRATests.IconTextFieldCellSpec Display_IconTextFieldCell__with_User_field__has_text_label_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleComponentFieldCellIconTextFieldCellTestsswift_55]' passed (0.002 seconds).
+Test Case '-[JIRATests.IconTextFieldCellSpec Display_IconTextFieldCell__with_User_field__has_detail_text_label_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleComponentFieldCellIconTextFieldCellTestsswift_59]' started.
+Test Case '-[JIRATests.IconTextFieldCellSpec Display_IconTextFieldCell__with_User_field__has_detail_text_label_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleComponentFieldCellIconTextFieldCellTestsswift_59]' passed (0.001 seconds).
+Test Case '-[JIRATests.IconTextFieldCellSpec Display_IconTextFieldCell__with_User_field__has_subtle_rounded_corner_image_view_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleComponentFieldCellIconTextFieldCellTestsswift_63]' started.
+Test Case '-[JIRATests.IconTextFieldCellSpec Display_IconTextFieldCell__with_User_field__has_subtle_rounded_corner_image_view_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleComponentFieldCellIconTextFieldCellTestsswift_63]' passed (0.002 seconds).
+Test Case '-[JIRATests.IconTextFieldCellSpec Display_IconTextFieldCell__with_User_field__has_icon_image_view_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleComponentFieldCellIconTextFieldCellTestsswift_67]' started.
+Test Case '-[JIRATests.IconTextFieldCellSpec Display_IconTextFieldCell__with_User_field__has_icon_image_view_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleComponentFieldCellIconTextFieldCellTestsswift_67]' passed (0.158 seconds).
+Test Suite 'IconTextFieldCellSpec' passed at 2015-12-22 13:49:38.672.
+
+Test Suite 'IssueCommentCardCellModelTests' started at 2015-12-22 13:49:38.673
+Test Case '-[JIRATests.IssueCommentCardCellModelTests SourceUser__is_distinct_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleComponentCardCellModelIssueCommentCardCellModelTestsswift_14]' started.
+Test Case '-[JIRATests.IssueCommentCardCellModelTests SourceUser__is_distinct_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleComponentCardCellModelIssueCommentCardCellModelTestsswift_14]' passed (0.001 seconds).
+Test Case '-[JIRATests.IssueCommentCardCellModelTests Initializer__works_correctly_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleComponentCardCellModelIssueCommentCardCellModelTestsswift_29]' started.
+Test Case '-[JIRATests.IssueCommentCardCellModelTests Initializer__works_correctly_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleComponentCardCellModelIssueCommentCardCellModelTestsswift_29]' passed (0.003 seconds).
+Test Case '-[JIRATests.IssueCommentCardCellModelTests Initializer__the_user_which_already_commented__shouldn_t_be_included_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleComponentCardCellModelIssueCommentCardCellModelTestsswift_34]' started.
+2015-12-22 13:49:38.713 JIRA[5925:1632441] KZPropertyMapper: Ignoring value at index context as it's not mapped
+Test Case '-[JIRATests.IssueCommentCardCellModelTests Initializer__the_user_which_already_commented__shouldn_t_be_included_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleComponentCardCellModelIssueCommentCardCellModelTestsswift_34]' passed (0.036 seconds).
+Test Suite 'IssueCommentCardCellModelTests' passed at 2015-12-22 13:49:38.716.
+
+Test Suite 'IssueCreateFieldsMetaDataTests' started at 2015-12-22 13:49:38.716
+[fg169,169,169;[bg;2015-12-22 13:49:38.719 [Debug] [main] [HTTPTestCase.swift:24] setUp() > LSNocilla started[;
+Test Case '-[JIRATests.IssueCreateFieldsMetaDataTests testLoadDataFromCache]' started.
+2015-12-22 13:49:38.722 JIRA[5925:1632456] Version  of Realm is now available: https://github.com/realm/realm-cocoa/blob/v/CHANGELOG.md
+2015-12-22 13:49:39.860 [Debug] [main] [SchemaVersioning.swift:29] incompatibleSchemaCheck(_:withCurrentSchemaVersion:) > Last schema version: 10, current app schema version: 10
+2015-12-22 13:49:39.861 [Debug] [main] [SchemaVersioning.swift:29] incompatibleSchemaCheck(_:withCurrentSchemaVersion:) > Last schema version: 10, current app schema version: 10
+2015-12-22 13:49:40.216 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:40.216 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:40.216 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:40.216 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:40.217 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:40.217 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:40.218 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:40.218 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:40.218 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:40.219 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+[fg169,169,169;[bg;2015-12-22 13:49:40.232 [Debug] [main] [HTTPTestCase.swift:42] tearDown() > LSNocilla clearStubs[;
+Test Case '-[JIRATests.IssueCreateFieldsMetaDataTests testLoadDataFromCache]' passed (1.515 seconds).
+Test Case '-[JIRATests.IssueCreateFieldsMetaDataTests testLoadFromBackend]' started.
+2015-12-22 13:49:40.966 [Debug] [main] [SchemaVersioning.swift:29] incompatibleSchemaCheck(_:withCurrentSchemaVersion:) > Last schema version: 10, current app schema version: 10
+2015-12-22 13:49:40.966 [Debug] [main] [SchemaVersioning.swift:29] incompatibleSchemaCheck(_:withCurrentSchemaVersion:) > Last schema version: 10, current app schema version: 10
+[fg169,169,169;[bg;2015-12-22 13:49:40.967 [Debug] [main] [BaseRequest.swift:12] init(method:path:headers:parameters:) > [GET]: rest/api/2/issue/createmeta?projectIds=10500&issuetypeIds=3&expand=projects.issuetypes.fields[;
+[fg169,169,169;[bg;2015-12-22 13:49:41.012 [Debug] [main] [BaseRequest.swift:18] onCompleted > [Optional(ATRestKit.HTTPMethod.GET) success]: Optional("rest/api/2/issue/createmeta?projectIds=10500&issuetypeIds=3&expand=projects.issuetypes.fields")[;
+2015-12-22 13:49:41.014 JIRA[5925:1632501] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:41.015 JIRA[5925:1632501] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:41.016 JIRA[5925:1632501] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:41.017 JIRA[5925:1632501] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:41.018 JIRA[5925:1632501] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:41.019 JIRA[5925:1632501] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:41.021 JIRA[5925:1632501] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:41.022 JIRA[5925:1632501] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:41.024 JIRA[5925:1632501] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:41.025 JIRA[5925:1632501] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+[fg169,169,169;[bg;2015-12-22 13:49:41.289 [Debug] [main] [HTTPTestCase.swift:42] tearDown() > LSNocilla clearStubs[;
+Test Case '-[JIRATests.IssueCreateFieldsMetaDataTests testLoadFromBackend]' passed (1.057 seconds).
+[fg169,169,169;[bg;2015-12-22 13:49:41.294 [Debug] [main] [HTTPTestCase.swift:29] tearDown() > LSNocilla stopped[;
+Test Suite 'IssueCreateFieldsMetaDataTests' passed at 2015-12-22 13:49:41.294.
+
+Test Suite 'IssueCreateMetaDataTests' started at 2015-12-22 13:49:41.295
+[fg169,169,169;[bg;2015-12-22 13:49:41.297 [Debug] [main] [HTTPTestCase.swift:24] setUp() > LSNocilla started[;
+Test Case '-[JIRATests.IssueCreateMetaDataTests testLoadDataFromCache]' started.
+2015-12-22 13:49:41.781 [Debug] [main] [SchemaVersioning.swift:29] incompatibleSchemaCheck(_:withCurrentSchemaVersion:) > Last schema version: 10, current app schema version: 10
+2015-12-22 13:49:41.781 [Debug] [main] [SchemaVersioning.swift:29] incompatibleSchemaCheck(_:withCurrentSchemaVersion:) > Last schema version: 10, current app schema version: 10
+[fg169,169,169;[bg;2015-12-22 13:49:42.283 [Debug] [main] [HTTPTestCase.swift:42] tearDown() > LSNocilla clearStubs[;
+Test Case '-[JIRATests.IssueCreateMetaDataTests testLoadDataFromCache]' passed (1.110 seconds).
+Test Case '-[JIRATests.IssueCreateMetaDataTests testLoadFromBackend]' started.
+2015-12-22 13:49:42.893 [Debug] [main] [SchemaVersioning.swift:29] incompatibleSchemaCheck(_:withCurrentSchemaVersion:) > Last schema version: 10, current app schema version: 10
+2015-12-22 13:49:42.894 [Debug] [main] [SchemaVersioning.swift:29] incompatibleSchemaCheck(_:withCurrentSchemaVersion:) > Last schema version: 10, current app schema version: 10
+[fg169,169,169;[bg;2015-12-22 13:49:42.895 [Debug] [main] [BaseRequest.swift:12] init(method:path:headers:parameters:) > [GET]: rest/api/2/issue/createmeta[;
+[fg169,169,169;[bg;2015-12-22 13:49:42.898 [Debug] [main] [BaseRequest.swift:18] onCompleted > [Optional(ATRestKit.HTTPMethod.GET) success]: Optional("rest/api/2/issue/createmeta")[;
+[fg0,0,255;[bg;2015-12-22 13:49:42.938 [Info] [0x7fadb2c30f90] [StoreService.swift:63] truncate > Truncate RLMIssueCreateMeta in Persistence Store[;
+[fg169,169,169;[bg;2015-12-22 13:49:43.108 [Debug] [main] [HTTPTestCase.swift:42] tearDown() > LSNocilla clearStubs[;
+Test Case '-[JIRATests.IssueCreateMetaDataTests testLoadFromBackend]' passed (0.837 seconds).
+[fg169,169,169;[bg;2015-12-22 13:49:43.246 [Debug] [main] [HTTPTestCase.swift:29] tearDown() > LSNocilla stopped[;
+Test Suite 'IssueCreateMetaDataTests' passed at 2015-12-22 13:49:43.246.
+
+Test Suite 'IssueCreateMetaDataTests2' started at 2015-12-22 13:49:43.247
+Test Case '-[JIRATests.IssueCreateMetaDataTests2 testIssueTypeMetaData]' started.
+Test Case '-[JIRATests.IssueCreateMetaDataTests2 testIssueTypeMetaData]' passed (1.248 seconds).
+Test Suite 'IssueCreateMetaDataTests2' passed at 2015-12-22 13:49:44.496.
+
+Test Suite 'IssueCreateMetaTests' started at 2015-12-22 13:49:44.496
+Test Case '-[JIRATests.IssueCreateMetaTests testIssueCreateMeta]' started.
+Test Case '-[JIRATests.IssueCreateMetaTests testIssueCreateMeta]' passed (0.005 seconds).
+Test Case '-[JIRATests.IssueCreateMetaTests testIssueTypes]' started.
+Test Case '-[JIRATests.IssueCreateMetaTests testIssueTypes]' passed (0.005 seconds).
+Test Case '-[JIRATests.IssueCreateMetaTests testPrimaryKey]' started.
+Test Case '-[JIRATests.IssueCreateMetaTests testPrimaryKey]' passed (0.005 seconds).
+Test Case '-[JIRATests.IssueCreateMetaTests testProject]' started.
+Test Case '-[JIRATests.IssueCreateMetaTests testProject]' passed (0.005 seconds).
+Test Suite 'IssueCreateMetaTests' passed at 2015-12-22 13:49:44.519.
+
+Test Suite 'IssueEditFieldsMetaDataTests' started at 2015-12-22 13:49:44.519
+[fg169,169,169;[bg;2015-12-22 13:49:44.521 [Debug] [main] [HTTPTestCase.swift:24] setUp() > LSNocilla started[;
+Test Case '-[JIRATests.IssueEditFieldsMetaDataTests testLoadDataFromCache]' started.
+2015-12-22 13:49:45.013 [Debug] [main] [SchemaVersioning.swift:29] incompatibleSchemaCheck(_:withCurrentSchemaVersion:) > Last schema version: 10, current app schema version: 10
+2015-12-22 13:49:45.013 [Debug] [main] [SchemaVersioning.swift:29] incompatibleSchemaCheck(_:withCurrentSchemaVersion:) > Last schema version: 10, current app schema version: 10
+2015-12-22 13:49:45.211 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:45.211 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:45.212 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:45.212 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:45.212 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:45.212 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:45.213 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:45.213 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:45.213 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:45.214 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+[fg169,169,169;[bg;2015-12-22 13:49:45.216 [Debug] [main] [HTTPTestCase.swift:42] tearDown() > LSNocilla clearStubs[;
+Test Case '-[JIRATests.IssueEditFieldsMetaDataTests testLoadDataFromCache]' passed (0.697 seconds).
+Test Case '-[JIRATests.IssueEditFieldsMetaDataTests testLoadFromBackend]' started.
+2015-12-22 13:49:45.735 [Debug] [main] [SchemaVersioning.swift:29] incompatibleSchemaCheck(_:withCurrentSchemaVersion:) > Last schema version: 10, current app schema version: 10
+2015-12-22 13:49:45.736 [Debug] [main] [SchemaVersioning.swift:29] incompatibleSchemaCheck(_:withCurrentSchemaVersion:) > Last schema version: 10, current app schema version: 10
+[fg169,169,169;[bg;2015-12-22 13:49:45.764 [Debug] [main] [BaseRequest.swift:12] init(method:path:headers:parameters:) > [GET]: rest/api/2/issue/10300/editmeta[;
+[fg169,169,169;[bg;2015-12-22 13:49:45.767 [Debug] [main] [BaseRequest.swift:18] onCompleted > [Optional(ATRestKit.HTTPMethod.GET) success]: Optional("rest/api/2/issue/10300/editmeta")[;
+2015-12-22 13:49:45.767 JIRA[5925:1632501] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:45.768 JIRA[5925:1632501] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:45.769 JIRA[5925:1632501] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:45.770 JIRA[5925:1632501] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:45.770 JIRA[5925:1632501] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:45.771 JIRA[5925:1632501] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:45.773 JIRA[5925:1632501] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:45.774 JIRA[5925:1632501] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:45.774 JIRA[5925:1632501] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:45.775 JIRA[5925:1632501] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+[fg169,169,169;[bg;2015-12-22 13:49:45.912 [Debug] [main] [HTTPTestCase.swift:42] tearDown() > LSNocilla clearStubs[;
+Test Case '-[JIRATests.IssueEditFieldsMetaDataTests testLoadFromBackend]' passed (0.696 seconds).
+[fg169,169,169;[bg;2015-12-22 13:49:45.917 [Debug] [main] [HTTPTestCase.swift:29] tearDown() > LSNocilla stopped[;
+Test Suite 'IssueEditFieldsMetaDataTests' passed at 2015-12-22 13:49:45.917.
+
+Test Suite 'IssueEditFieldsMetaDataTests2' started at 2015-12-22 13:49:45.918
+Test Case '-[JIRATests.IssueEditFieldsMetaDataTests2 testIssueTypeMetaData]' started.
+2015-12-22 13:49:46.548 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:46.549 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:46.549 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:46.549 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:46.549 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:46.549 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:46.550 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:46.551 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:46.551 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:46.551 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+Test Case '-[JIRATests.IssueEditFieldsMetaDataTests2 testIssueTypeMetaData]' passed (0.638 seconds).
+Test Suite 'IssueEditFieldsMetaDataTests2' passed at 2015-12-22 13:49:46.557.
+
+Test Suite 'IssueTests' started at 2015-12-22 13:49:46.558
+Test Case '-[JIRATests.IssueTests testFields]' started.
+[fg169,169,169;[bg;2015-12-22 13:49:46.598 [Debug] [main] [FieldType.swift:42] from > any has not yet been supported.[;
+[fg169,169,169;[bg;2015-12-22 13:49:46.599 [Debug] [main] [FieldType.swift:42] from > any has not yet been supported.[;
+[fg169,169,169;[bg;2015-12-22 13:49:46.600 [Debug] [main] [FieldType.swift:42] from > any has not yet been supported.[;
+[fg169,169,169;[bg;2015-12-22 13:49:46.600 [Debug] [main] [FieldType.swift:42] from > any has not yet been supported.[;
+[fg169,169,169;[bg;2015-12-22 13:49:46.603 [Debug] [main] [FieldType.swift:42] from > watches has not yet been supported.[;
+[fg169,169,169;[bg;2015-12-22 13:49:46.603 [Debug] [main] [FieldType.swift:42] from > watches has not yet been supported.[;
+Test Case '-[JIRATests.IssueTests testFields]' passed (0.048 seconds).
+Test Case '-[JIRATests.IssueTests testGetAssignee]' started.
+Test Case '-[JIRATests.IssueTests testGetAssignee]' passed (0.011 seconds).
+Test Case '-[JIRATests.IssueTests testGetDateValueOfField]' started.
+Test Case '-[JIRATests.IssueTests testGetDateValueOfField]' passed (0.010 seconds).
+Test Case '-[JIRATests.IssueTests testGetDescriptionOfField1]' started.
+Test Case '-[JIRATests.IssueTests testGetDescriptionOfField1]' passed (0.010 seconds).
+Test Case '-[JIRATests.IssueTests testGetDescriptionOfField2]' started.
+Test Case '-[JIRATests.IssueTests testGetDescriptionOfField2]' passed (0.010 seconds).
+Test Case '-[JIRATests.IssueTests testGetField]' started.
+[fg169,169,169;[bg;2015-12-22 13:49:46.661 [Debug] [main] [FieldType.swift:42] from > any has not yet been supported.[;
+[fg169,169,169;[bg;2015-12-22 13:49:46.661 [Debug] [main] [FieldType.swift:42] from > any has not yet been supported.[;
+[fg169,169,169;[bg;2015-12-22 13:49:46.663 [Debug] [main] [FieldType.swift:42] from > any has not yet been supported.[;
+[fg169,169,169;[bg;2015-12-22 13:49:46.663 [Debug] [main] [FieldType.swift:42] from > any has not yet been supported.[;
+[fg169,169,169;[bg;2015-12-22 13:49:46.665 [Debug] [main] [FieldType.swift:42] from > watches has not yet been supported.[;
+[fg169,169,169;[bg;2015-12-22 13:49:46.665 [Debug] [main] [FieldType.swift:42] from > watches has not yet been supported.[;
+Test Case '-[JIRATests.IssueTests testGetField]' passed (0.020 seconds).
+Test Case '-[JIRATests.IssueTests testGetIssueType]' started.
+Test Case '-[JIRATests.IssueTests testGetIssueType]' passed (0.010 seconds).
+Test Case '-[JIRATests.IssueTests testGetNameOfField]' started.
+Test Case '-[JIRATests.IssueTests testGetNameOfField]' passed (0.011 seconds).
+Test Case '-[JIRATests.IssueTests testGetNilValueOfField]' started.
+[fg255,0,0;[bg;2015-12-22 13:49:46.701 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.resolution[;
+[fg255,0,0;[bg;2015-12-22 13:49:46.701 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.resolution[;
+Test Case '-[JIRATests.IssueTests testGetNilValueOfField]' passed (0.010 seconds).
+Test Case '-[JIRATests.IssueTests testGetProject]' started.
+Test Case '-[JIRATests.IssueTests testGetProject]' passed (0.011 seconds).
+Test Case '-[JIRATests.IssueTests testGetStringValueOfField]' started.
+Test Case '-[JIRATests.IssueTests testGetStringValueOfField]' passed (0.010 seconds).
+Test Case '-[JIRATests.IssueTests testHtmlDescription]' started.
+Test Case '-[JIRATests.IssueTests testHtmlDescription]' passed (0.010 seconds).
+Test Case '-[JIRATests.IssueTests testId]' started.
+Test Case '-[JIRATests.IssueTests testId]' passed (0.010 seconds).
+Test Case '-[JIRATests.IssueTests testKey]' started.
+Test Case '-[JIRATests.IssueTests testKey]' passed (0.010 seconds).
+Test Case '-[JIRATests.IssueTests testNames]' started.
+Test Case '-[JIRATests.IssueTests testNames]' passed (0.010 seconds).
+Test Case '-[JIRATests.IssueTests testPriority]' started.
+Test Case '-[JIRATests.IssueTests testPriority]' passed (0.010 seconds).
+Test Case '-[JIRATests.IssueTests testRenderedFields]' started.
+Test Case '-[JIRATests.IssueTests testRenderedFields]' passed (0.010 seconds).
+Test Case '-[JIRATests.IssueTests testSchema]' started.
+Test Case '-[JIRATests.IssueTests testSchema]' passed (0.010 seconds).
+Test Suite 'IssueTests' passed at 2015-12-22 13:49:46.796.
+
+Test Suite 'IssueTransitionCardCellModelTests' started at 2015-12-22 13:49:46.797
+Test Case '-[JIRATests.IssueTransitionCardCellModelTests IssueTransitionCardCellModel_init____initialzes_variables_inheritted_from_CardCellModel_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleComponentCardCellModelIssueTransitionCardCellModelTestsswift_16]' started.
+Test Case '-[JIRATests.IssueTransitionCardCellModelTests IssueTransitionCardCellModel_init____initialzes_variables_inheritted_from_CardCellModel_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleComponentCardCellModelIssueTransitionCardCellModelTestsswift_16]' passed (0.001 seconds).
+Test Case '-[JIRATests.IssueTransitionCardCellModelTests IssueTransitionCardCellModel_init____initializes_variables_inherrited_from_IssueCardCellModel_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleComponentCardCellModelIssueTransitionCardCellModelTestsswift_19]' started.
+Test Case '-[JIRATests.IssueTransitionCardCellModelTests IssueTransitionCardCellModel_init____initializes_variables_inherrited_from_IssueCardCellModel_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleComponentCardCellModelIssueTransitionCardCellModelTestsswift_19]' passed (0.001 seconds).
+Test Case '-[JIRATests.IssueTransitionCardCellModelTests IssueTransitionCardCellModel_processRationale____interpretes_the_rationale_correctly_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleComponentCardCellModelIssueTransitionCardCellModelTestsswift_28]' started.
+Test Case '-[JIRATests.IssueTransitionCardCellModelTests IssueTransitionCardCellModel_processRationale____interpretes_the_rationale_correctly_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleComponentCardCellModelIssueTransitionCardCellModelTestsswift_28]' passed (0.001 seconds).
+Test Suite 'IssueTransitionCardCellModelTests' passed at 2015-12-22 13:49:46.801.
+
+Test Suite 'IssueTypeFieldCellEditModelTests' started at 2015-12-22 13:49:46.802
+Test Case '-[JIRATests.IssueTypeFieldCellEditModelTests testGetIssueTypeJSON]' started.
+Test Case '-[JIRATests.IssueTypeFieldCellEditModelTests testGetIssueTypeJSON]' passed (0.001 seconds).
+Test Suite 'IssueTypeFieldCellEditModelTests' passed at 2015-12-22 13:49:46.804.
+
+Test Suite 'IssueTypeFieldCellModelTests' started at 2015-12-22 13:49:46.804
+Test Case '-[JIRATests.IssueTypeFieldCellModelTests testThatItHasCorrectDetail]' started.
+[fg255,0,0;[bg;2015-12-22 13:49:46.810 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.updated[;
+[fg255,0,0;[bg;2015-12-22 13:49:46.810 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.updated[;
+Test Case '-[JIRATests.IssueTypeFieldCellModelTests testThatItHasCorrectDetail]' passed (0.011 seconds).
+Test Case '-[JIRATests.IssueTypeFieldCellModelTests testThatItHasCorrectIconURL]' started.
+[fg255,0,0;[bg;2015-12-22 13:49:46.821 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.updated[;
+[fg255,0,0;[bg;2015-12-22 13:49:46.822 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.updated[;
+Test Case '-[JIRATests.IssueTypeFieldCellModelTests testThatItHasCorrectIconURL]' passed (0.011 seconds).
+Test Case '-[JIRATests.IssueTypeFieldCellModelTests testThatItHasCorrectTitle]' started.
+[fg255,0,0;[bg;2015-12-22 13:49:46.833 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.updated[;
+[fg255,0,0;[bg;2015-12-22 13:49:46.833 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.updated[;
+Test Case '-[JIRATests.IssueTypeFieldCellModelTests testThatItHasCorrectTitle]' passed (0.010 seconds).
+Test Case '-[JIRATests.IssueTypeFieldCellModelTests testThatItHasIconRoundnessAsSubtle]' started.
+[fg255,0,0;[bg;2015-12-22 13:49:46.844 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.updated[;
+[fg255,0,0;[bg;2015-12-22 13:49:46.844 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.updated[;
+Test Case '-[JIRATests.IssueTypeFieldCellModelTests testThatItHasIconRoundnessAsSubtle]' passed (0.011 seconds).
+Test Case '-[JIRATests.IssueTypeFieldCellModelTests testThatItHasIconSizeOf20x20]' started.
+[fg255,0,0;[bg;2015-12-22 13:49:46.855 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.updated[;
+[fg255,0,0;[bg;2015-12-22 13:49:46.856 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.updated[;
+Test Case '-[JIRATests.IssueTypeFieldCellModelTests testThatItHasIconSizeOf20x20]' passed (0.024 seconds).
+Test Suite 'IssueTypeFieldCellModelTests' passed at 2015-12-22 13:49:46.874.
+
+Test Suite 'IssueTypePickerCellModelTests' started at 2015-12-22 13:49:46.875
+Test Case '-[JIRATests.IssueTypePickerCellModelTests testThatIssueTypePickerCellModelBuildsCorrectly]' started.
+Test Case '-[JIRATests.IssueTypePickerCellModelTests testThatIssueTypePickerCellModelBuildsCorrectly]' passed (0.012 seconds).
+Test Suite 'IssueTypePickerCellModelTests' passed at 2015-12-22 13:49:46.888.
+
+Test Suite 'IssueTypeTests' started at 2015-12-22 13:49:46.889
+Test Case '-[JIRATests.IssueTypeTests testGetEditJSON]' started.
+Test Case '-[JIRATests.IssueTypeTests testGetEditJSON]' passed (0.001 seconds).
+Test Case '-[JIRATests.IssueTypeTests testIssueTypeStruct]' started.
+Test Case '-[JIRATests.IssueTypeTests testIssueTypeStruct]' passed (0.010 seconds).
+Test Case '-[JIRATests.IssueTypeTests testThatProjectMapsCorrectly]' started.
+Test Case '-[JIRATests.IssueTypeTests testThatProjectMapsCorrectly]' passed (0.009 seconds).
+Test Suite 'IssueTypeTests' passed at 2015-12-22 13:49:46.910.
+
+Test Suite 'JQLSpec' started at 2015-12-22 13:49:46.911
+Test Case '-[JIRATests.JQLSpec SearchableElement__trims_white_space_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleViewSearchJQLExpressionSpecswift_14]' started.
+Test Case '-[JIRATests.JQLSpec SearchableElement__trims_white_space_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleViewSearchJQLExpressionSpecswift_14]' passed (0.001 seconds).
+Test Case '-[JIRATests.JQLSpec SearchableElement__adds_wild_card_character_to_the_end_of_value_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleViewSearchJQLExpressionSpecswift_18]' started.
+Test Case '-[JIRATests.JQLSpec SearchableElement__adds_wild_card_character_to_the_end_of_value_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleViewSearchJQLExpressionSpecswift_18]' passed (0.001 seconds).
+Test Case '-[JIRATests.JQLSpec SearchableElement__can_be_wrapped_in_quotes_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleViewSearchJQLExpressionSpecswift_22]' started.
+Test Case '-[JIRATests.JQLSpec SearchableElement__can_be_wrapped_in_quotes_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleViewSearchJQLExpressionSpecswift_22]' passed (0.001 seconds).
+Test Case '-[JIRATests.JQLSpec SearchableElement__isIssueKey____returns_false_if_searchable_element_is_not_an_issue_key_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleViewSearchJQLExpressionSpecswift_29]' started.
+Test Case '-[JIRATests.JQLSpec SearchableElement__isIssueKey____returns_false_if_searchable_element_is_not_an_issue_key_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleViewSearchJQLExpressionSpecswift_29]' passed (0.001 seconds).
+Test Case '-[JIRATests.JQLSpec SearchableElement__isIssueKey____returns_true_if_searchable_element_is_an_issue_key_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleViewSearchJQLExpressionSpecswift_45]' started.
+Test Case '-[JIRATests.JQLSpec SearchableElement__isIssueKey____returns_true_if_searchable_element_is_an_issue_key_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleViewSearchJQLExpressionSpecswift_45]' passed (0.001 seconds).
+Test Case '-[JIRATests.JQLSpec Expression__can_be_built_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleViewSearchJQLExpressionSpecswift_62]' started.
+Test Case '-[JIRATests.JQLSpec Expression__can_be_built_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleViewSearchJQLExpressionSpecswift_62]' passed (0.001 seconds).
+Test Case '-[JIRATests.JQLSpec Expression__can_be_composed_with_OR_operator_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleViewSearchJQLExpressionSpecswift_66]' started.
+Test Case '-[JIRATests.JQLSpec Expression__can_be_composed_with_OR_operator_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleViewSearchJQLExpressionSpecswift_66]' passed (0.002 seconds).
+Test Case '-[JIRATests.JQLSpec Expression__can_be_ordered_by_ascending_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleViewSearchJQLExpressionSpecswift_70]' started.
+Test Case '-[JIRATests.JQLSpec Expression__can_be_ordered_by_ascending_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleViewSearchJQLExpressionSpecswift_70]' passed (0.001 seconds).
+Test Case '-[JIRATests.JQLSpec Expression__can_be_ordered_by_descending_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleViewSearchJQLExpressionSpecswift_74]' started.
+Test Case '-[JIRATests.JQLSpec Expression__can_be_ordered_by_descending_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleViewSearchJQLExpressionSpecswift_74]' passed (0.001 seconds).
+Test Suite 'JQLSpec' passed at 2015-12-22 13:49:46.925.
+
+Test Suite 'LozengeFieldCellModelTests' started at 2015-12-22 13:49:46.926
+Test Case '-[JIRATests.LozengeFieldCellModelTests Cell__set_model__has_text_label_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleComponentFieldCellLozengeFieldCellModelTestsswift_26]' started.
+Test Case '-[JIRATests.LozengeFieldCellModelTests Cell__set_model__has_text_label_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleComponentFieldCellLozengeFieldCellModelTestsswift_26]' passed (0.001 seconds).
+Test Case '-[JIRATests.LozengeFieldCellModelTests Cell__set_model__has_lozenge_view_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleComponentFieldCellLozengeFieldCellModelTestsswift_30]' started.
+Test Case '-[JIRATests.LozengeFieldCellModelTests Cell__set_model__has_lozenge_view_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleComponentFieldCellLozengeFieldCellModelTestsswift_30]' passed (0.001 seconds).
+Test Suite 'LozengeFieldCellModelTests' passed at 2015-12-22 13:49:46.929.
+
+Test Suite 'LozengeStringTests' started at 2015-12-22 13:49:46.930
+Test Case '-[JIRATests.LozengeStringTests LozengeString_generate____generates_a_Status_string_successfully_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleComponentCustomViewLozengeViewTestsswift_10]' started.
+Test Case '-[JIRATests.LozengeStringTests LozengeString_generate____generates_a_Status_string_successfully_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleComponentCustomViewLozengeViewTestsswift_10]' passed (0.001 seconds).
+Test Case '-[JIRATests.LozengeStringTests LozengeString_generate____returns_nil_if_lozengeName_is_empty_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleComponentCustomViewLozengeViewTestsswift_14]' started.
+[fg255,0,0;[bg;2015-12-22 13:49:46.934 [Error] [main] [LozengeView.swift:100] generate(_:lozengeColorCode:) > lozengeText is empty[;
+Test Case '-[JIRATests.LozengeStringTests LozengeString_generate____returns_nil_if_lozengeName_is_empty_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleComponentCustomViewLozengeViewTestsswift_14]' passed (0.001 seconds).
+Test Case '-[JIRATests.LozengeStringTests LozengeString_generate____returns_nil_if_lozengeColorCode_is_invalid_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleComponentCustomViewLozengeViewTestsswift_18]' started.
+[fg255,0,0;[bg;2015-12-22 13:49:46.935 [Error] [main] [LozengeView.swift:104] generate(_:lozengeColorCode:) > lozengeColorCode is not understandable[;
+Test Case '-[JIRATests.LozengeStringTests LozengeString_generate____returns_nil_if_lozengeColorCode_is_invalid_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleComponentCustomViewLozengeViewTestsswift_18]' passed (0.001 seconds).
+Test Suite 'LozengeStringTests' passed at 2015-12-22 13:49:46.937.
+
+Test Suite 'ModelFetcherSpec' started at 2015-12-22 13:49:46.938
+Test Case '-[JIRATests.ModelFetcherSpec Fetching_Scenarios__Fetch_cache_only_and_succeeded__shoulds_call_to_delegate_s_needsCachedModel_and_didFetchModel_functions_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineModelModelFetcherSpecswift_25]' started.
+Test Case '-[JIRATests.ModelFetcherSpec Fetching_Scenarios__Fetch_cache_only_and_succeeded__shoulds_call_to_delegate_s_needsCachedModel_and_didFetchModel_functions_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineModelModelFetcherSpecswift_25]' passed (0.001 seconds).
+Test Case '-[JIRATests.ModelFetcherSpec Fetching_Scenarios__Fetch_cache_only_and_failed__shoulds_call_to_delegate_s_needsCachedModel_and_didFailFetching_functions_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineModelModelFetcherSpecswift_42]' started.
+Test Case '-[JIRATests.ModelFetcherSpec Fetching_Scenarios__Fetch_cache_only_and_failed__shoulds_call_to_delegate_s_needsCachedModel_and_didFailFetching_functions_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineModelModelFetcherSpecswift_42]' passed (0.001 seconds).
+Test Case '-[JIRATests.ModelFetcherSpec Fetching_Scenarios__Fetch_network_only_and_succeded__shoulds_call_to_delegate_s_needsNetworkModel_and_didFetchModel_functions_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineModelModelFetcherSpecswift_59]' started.
+Test Case '-[JIRATests.ModelFetcherSpec Fetching_Scenarios__Fetch_network_only_and_succeded__shoulds_call_to_delegate_s_needsNetworkModel_and_didFetchModel_functions_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineModelModelFetcherSpecswift_59]' passed (0.001 seconds).
+Test Case '-[JIRATests.ModelFetcherSpec Fetching_Scenarios__Fetch_network_only_and_failed__shoulds_call_to_delegate_s_needsNetworkModel_and_didFailFetching_functions_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineModelModelFetcherSpecswift_76]' started.
+Test Case '-[JIRATests.ModelFetcherSpec Fetching_Scenarios__Fetch_network_only_and_failed__shoulds_call_to_delegate_s_needsNetworkModel_and_didFailFetching_functions_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineModelModelFetcherSpecswift_76]' passed (0.001 seconds).
+Test Case '-[JIRATests.ModelFetcherSpec Fetching_Scenarios__Fetch_cached_then_network__cached_model_existed__fetch_network_model_succeeded__shoulds_call_back_didFetchModel_2_times_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineModelModelFetcherSpecswift_98]' started.
+Test Case '-[JIRATests.ModelFetcherSpec Fetching_Scenarios__Fetch_cached_then_network__cached_model_existed__fetch_network_model_succeeded__shoulds_call_back_didFetchModel_2_times_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineModelModelFetcherSpecswift_98]' passed (0.001 seconds).
+Test Case '-[JIRATests.ModelFetcherSpec Fetching_Scenarios__Fetch_cached_then_network__cached_model____nil__fetch_network_model_succeeded__shoulds_call_back_didFetchModel_1_time_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineModelModelFetcherSpecswift_117]' started.
+Test Case '-[JIRATests.ModelFetcherSpec Fetching_Scenarios__Fetch_cached_then_network__cached_model____nil__fetch_network_model_succeeded__shoulds_call_back_didFetchModel_1_time_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineModelModelFetcherSpecswift_117]' passed (0.002 seconds).
+Test Case '-[JIRATests.ModelFetcherSpec Fetching_Scenarios__Fetch_cached_then_network__throw_error_when_fetching_cached_model__fetch_network_model_succeeded__shoulds_call_back_didFailFetching_1_time_and_didFetchModel_1_time_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineModelModelFetcherSpecswift_136]' started.
+Test Case '-[JIRATests.ModelFetcherSpec Fetching_Scenarios__Fetch_cached_then_network__throw_error_when_fetching_cached_model__fetch_network_model_succeeded__shoulds_call_back_didFailFetching_1_time_and_didFetchModel_1_time_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineModelModelFetcherSpecswift_136]' passed (0.001 seconds).
+Test Case '-[JIRATests.ModelFetcherSpec Fetching_Scenarios__Fetch_cached_then_network__throw_error_when_fetching_cached_model__throw_error_when_fetching_network_model__shoulds_call_back_didFailFetching_2_times_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineModelModelFetcherSpecswift_155]' started.
+Test Case '-[JIRATests.ModelFetcherSpec Fetching_Scenarios__Fetch_cached_then_network__throw_error_when_fetching_cached_model__throw_error_when_fetching_network_model__shoulds_call_back_didFailFetching_2_times_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineModelModelFetcherSpecswift_155]' passed (0.001 seconds).
+Test Case '-[JIRATests.ModelFetcherSpec Fetching_Scenarios__Fetch_cached_else_network__cached_model_existed__fetch_network_model_succeeded__shoulds_not_call_needsNetworkModel_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineModelModelFetcherSpecswift_179]' started.
+Test Case '-[JIRATests.ModelFetcherSpec Fetching_Scenarios__Fetch_cached_else_network__cached_model_existed__fetch_network_model_succeeded__shoulds_not_call_needsNetworkModel_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineModelModelFetcherSpecswift_179]' passed (0.001 seconds).
+Test Case '-[JIRATests.ModelFetcherSpec Fetching_Scenarios__Fetch_cached_else_network__cached_model____nil__fetch_network_model_succeeded__shoulds_call_needsNetworkModel_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineModelModelFetcherSpecswift_198]' started.
+Test Case '-[JIRATests.ModelFetcherSpec Fetching_Scenarios__Fetch_cached_else_network__cached_model____nil__fetch_network_model_succeeded__shoulds_call_needsNetworkModel_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineModelModelFetcherSpecswift_198]' passed (0.003 seconds).
+Test Case '-[JIRATests.ModelFetcherSpec Fetching_Scenarios__Fetch_cached_else_network__throw_error_when_fetching_cached_model__fetch_network_model_succeeded__shoulds_call_back_didFailFetching_1_time_and_didFetchModel_1_time_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineModelModelFetcherSpecswift_217]' started.
+Test Case '-[JIRATests.ModelFetcherSpec Fetching_Scenarios__Fetch_cached_else_network__throw_error_when_fetching_cached_model__fetch_network_model_succeeded__shoulds_call_back_didFailFetching_1_time_and_didFetchModel_1_time_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineModelModelFetcherSpecswift_217]' passed (0.001 seconds).
+Test Case '-[JIRATests.ModelFetcherSpec Fetching_Scenarios__Fetch_cached_else_network__throw_error_when_fetching_cached_model__throw_error_when_fetching_network_model__shoulds_call_back_didFailFetching_2_times_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineModelModelFetcherSpecswift_236]' started.
+Test Case '-[JIRATests.ModelFetcherSpec Fetching_Scenarios__Fetch_cached_else_network__throw_error_when_fetching_cached_model__throw_error_when_fetching_network_model__shoulds_call_back_didFailFetching_2_times_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineModelModelFetcherSpecswift_236]' passed (0.001 seconds).
+Test Suite 'ModelFetcherSpec' passed at 2015-12-22 13:49:46.961.
+
+Test Suite 'NSURLComponentsExtensionSpec' started at 2015-12-22 13:49:46.963
+Test Case '-[JIRATests.NSURLComponentsExtensionSpec addQueryItems____sets_queryItems_if_it_was_nil_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineExtensionNSURLComponentsTestsswift_19]' started.
+Test Case '-[JIRATests.NSURLComponentsExtensionSpec addQueryItems____sets_queryItems_if_it_was_nil_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineExtensionNSURLComponentsTestsswift_19]' passed (0.001 seconds).
+Test Case '-[JIRATests.NSURLComponentsExtensionSpec addQueryItems____appends_queryItems_if_it_contains_unique_items_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineExtensionNSURLComponentsTestsswift_26]' started.
+Test Case '-[JIRATests.NSURLComponentsExtensionSpec addQueryItems____appends_queryItems_if_it_contains_unique_items_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineExtensionNSURLComponentsTestsswift_26]' passed (0.001 seconds).
+Test Case '-[JIRATests.NSURLComponentsExtensionSpec addQueryItems____updates_queryItems_if_it_contains_existing_items_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineExtensionNSURLComponentsTestsswift_32]' started.
+Test Case '-[JIRATests.NSURLComponentsExtensionSpec addQueryItems____updates_queryItems_if_it_contains_existing_items_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineExtensionNSURLComponentsTestsswift_32]' passed (0.002 seconds).
+Test Suite 'NSURLComponentsExtensionSpec' passed at 2015-12-22 13:49:46.969.
+
+Test Suite 'NavigationBarSpec' started at 2015-12-22 13:49:46.969
+Test Case '-[JIRATests.NavigationBarSpec Navigation__has_valid_logo_image_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleViewNavigationBarSpecswift_22]' started.
+Test Case '-[JIRATests.NavigationBarSpec Navigation__has_valid_logo_image_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleViewNavigationBarSpecswift_22]' passed (0.248 seconds).
+Test Case '-[JIRATests.NavigationBarSpec Navigation__has_valid_navigation_bar_appearance_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleViewNavigationBarSpecswift_26]' started.
+Test Case '-[JIRATests.NavigationBarSpec Navigation__has_valid_navigation_bar_appearance_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleViewNavigationBarSpecswift_26]' passed (0.063 seconds).
+Test Suite 'NavigationBarSpec' passed at 2015-12-22 13:49:47.282.
+
+Test Suite 'PriorityFieldCellModelTests' started at 2015-12-22 13:49:47.283
+Test Case '-[JIRATests.PriorityFieldCellModelTests testThatItHasCorrectDetail]' started.
+[fg255,0,0;[bg;2015-12-22 13:49:47.289 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.updated[;
+[fg255,0,0;[bg;2015-12-22 13:49:47.289 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.updated[;
+Test Case '-[JIRATests.PriorityFieldCellModelTests testThatItHasCorrectDetail]' passed (0.011 seconds).
+Test Case '-[JIRATests.PriorityFieldCellModelTests testThatItHasCorrectIconURL]' started.
+[fg255,0,0;[bg;2015-12-22 13:49:47.300 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.updated[;
+[fg255,0,0;[bg;2015-12-22 13:49:47.300 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.updated[;
+Test Case '-[JIRATests.PriorityFieldCellModelTests testThatItHasCorrectIconURL]' passed (0.011 seconds).
+Test Case '-[JIRATests.PriorityFieldCellModelTests testThatItHasCorrectTitle]' started.
+[fg255,0,0;[bg;2015-12-22 13:49:47.312 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.updated[;
+[fg255,0,0;[bg;2015-12-22 13:49:47.313 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.updated[;
+Test Case '-[JIRATests.PriorityFieldCellModelTests testThatItHasCorrectTitle]' passed (0.012 seconds).
+Test Case '-[JIRATests.PriorityFieldCellModelTests testThatItHasIconRoundnessAsSubtle]' started.
+[fg255,0,0;[bg;2015-12-22 13:49:47.324 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.updated[;
+[fg255,0,0;[bg;2015-12-22 13:49:47.324 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.updated[;
+Test Case '-[JIRATests.PriorityFieldCellModelTests testThatItHasIconRoundnessAsSubtle]' passed (0.011 seconds).
+Test Case '-[JIRATests.PriorityFieldCellModelTests testThatItHasIconSizeOf20x20]' started.
+[fg255,0,0;[bg;2015-12-22 13:49:47.335 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.updated[;
+[fg255,0,0;[bg;2015-12-22 13:49:47.335 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.updated[;
+Test Case '-[JIRATests.PriorityFieldCellModelTests testThatItHasIconSizeOf20x20]' passed (0.011 seconds).
+Test Suite 'PriorityFieldCellModelTests' passed at 2015-12-22 13:49:47.341.
+
+Test Suite 'PriorityPickerCellModelTests' started at 2015-12-22 13:49:47.342
+Test Case '-[JIRATests.PriorityPickerCellModelTests testInit]' started.
+[fg255,0,0;[bg;2015-12-22 13:49:47.347 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.updated[;
+[fg255,0,0;[bg;2015-12-22 13:49:47.348 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.updated[;
+Test Case '-[JIRATests.PriorityPickerCellModelTests testInit]' passed (0.006 seconds).
+Test Suite 'PriorityPickerCellModelTests' passed at 2015-12-22 13:49:47.349.
+
+Test Suite 'PriorityPickerViewModelTests' started at 2015-12-22 13:49:47.350
+[fg169,169,169;[bg;2015-12-22 13:49:47.353 [Debug] [main] [HTTPTestCase.swift:24] setUp() > LSNocilla started[;
+Test Case '-[JIRATests.PriorityPickerViewModelTests testInitializingFunction]' started.
+2015-12-22 13:49:47.692 [Debug] [main] [SchemaVersioning.swift:29] incompatibleSchemaCheck(_:withCurrentSchemaVersion:) > Last schema version: 10, current app schema version: 10
+2015-12-22 13:49:47.692 [Debug] [main] [SchemaVersioning.swift:29] incompatibleSchemaCheck(_:withCurrentSchemaVersion:) > Last schema version: 10, current app schema version: 10
+[fg169,169,169;[bg;2015-12-22 13:49:47.696 [Debug] [main] [HTTPTestCase.swift:42] tearDown() > LSNocilla clearStubs[;
+Test Case '-[JIRATests.PriorityPickerViewModelTests testInitializingFunction]' passed (0.345 seconds).
+Test Case '-[JIRATests.PriorityPickerViewModelTests testLoadDataFromBackend]' started.
+2015-12-22 13:49:48.224 [Debug] [main] [SchemaVersioning.swift:29] incompatibleSchemaCheck(_:withCurrentSchemaVersion:) > Last schema version: 10, current app schema version: 10
+2015-12-22 13:49:48.225 [Debug] [main] [SchemaVersioning.swift:29] incompatibleSchemaCheck(_:withCurrentSchemaVersion:) > Last schema version: 10, current app schema version: 10
+[fg169,169,169;[bg;2015-12-22 13:49:48.227 [Debug] [main] [BaseRequest.swift:12] init(method:path:headers:parameters:) > [GET]: rest/api/2/issue/10300/editmeta[;
+[fg169,169,169;[bg;2015-12-22 13:49:48.234 [Debug] [main] [CardCollectionViewModel.swift:41] loadInitData() > Self is nil[;
+[fg169,169,169;[bg;2015-12-22 13:49:48.235 [Debug] [main] [BaseRequest.swift:18] onCompleted > [Optional(ATRestKit.HTTPMethod.GET) success]: Optional("rest/api/2/issue/10300/editmeta")[;
+2015-12-22 13:49:48.236 JIRA[5925:1632501] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:48.237 JIRA[5925:1632501] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:48.238 JIRA[5925:1632501] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:48.238 JIRA[5925:1632501] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:48.239 JIRA[5925:1632501] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:48.240 JIRA[5925:1632501] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:48.241 JIRA[5925:1632501] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:48.242 JIRA[5925:1632501] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:48.243 JIRA[5925:1632501] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:48.244 JIRA[5925:1632501] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+[fg169,169,169;[bg;2015-12-22 13:49:48.405 [Debug] [main] [HTTPTestCase.swift:42] tearDown() > LSNocilla clearStubs[;
+Test Case '-[JIRATests.PriorityPickerViewModelTests testLoadDataFromBackend]' passed (0.708 seconds).
+Test Case '-[JIRATests.PriorityPickerViewModelTests testLoadDataFromCache]' started.
+2015-12-22 13:49:48.918 [Debug] [main] [SchemaVersioning.swift:29] incompatibleSchemaCheck(_:withCurrentSchemaVersion:) > Last schema version: 10, current app schema version: 10
+2015-12-22 13:49:48.918 [Debug] [main] [SchemaVersioning.swift:29] incompatibleSchemaCheck(_:withCurrentSchemaVersion:) > Last schema version: 10, current app schema version: 10
+2015-12-22 13:49:49.083 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:49.083 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:49.083 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:49.083 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:49.084 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:49.084 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:49.085 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:49.085 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:49.085 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:49.085 JIRA[5925:1632441] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+[fg169,169,169;[bg;2015-12-22 13:49:49.103 [Debug] [main] [HTTPTestCase.swift:42] tearDown() > LSNocilla clearStubs[;
+Test Case '-[JIRATests.PriorityPickerViewModelTests testLoadDataFromCache]' passed (0.698 seconds).
+Test Case '-[JIRATests.PriorityPickerViewModelTests testSelectedIndexPath]' started.
+2015-12-22 13:49:49.655 [Debug] [main] [SchemaVersioning.swift:29] incompatibleSchemaCheck(_:withCurrentSchemaVersion:) > Last schema version: 10, current app schema version: 10
+2015-12-22 13:49:49.655 [Debug] [main] [SchemaVersioning.swift:29] incompatibleSchemaCheck(_:withCurrentSchemaVersion:) > Last schema version: 10, current app schema version: 10
+[fg169,169,169;[bg;2015-12-22 13:49:49.657 [Debug] [main] [BaseRequest.swift:12] init(method:path:headers:parameters:) > [GET]: rest/api/2/issue/10300/editmeta[;
+[fg169,169,169;[bg;2015-12-22 13:49:49.659 [Debug] [main] [BaseRequest.swift:18] onCompleted > [Optional(ATRestKit.HTTPMethod.GET) success]: Optional("rest/api/2/issue/10300/editmeta")[;
+2015-12-22 13:49:49.659 JIRA[5925:1632471] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:49.660 JIRA[5925:1632471] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:49.661 JIRA[5925:1632471] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:49.662 JIRA[5925:1632471] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:49.662 JIRA[5925:1632471] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:49.663 JIRA[5925:1632471] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:49.665 JIRA[5925:1632471] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:49.666 JIRA[5925:1632471] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:49.666 JIRA[5925:1632471] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+2015-12-22 13:49:49.668 JIRA[5925:1632471] *** -[NSKeyedUnarchiver initForReadingWithData:]: data is empty; did you forget to send -finishEncoding to the NSKeyedArchiver?
+[fg169,169,169;[bg;2015-12-22 13:49:49.877 [Debug] [main] [HTTPTestCase.swift:42] tearDown() > LSNocilla clearStubs[;
+Test Case '-[JIRATests.PriorityPickerViewModelTests testSelectedIndexPath]' passed (0.773 seconds).
+[fg169,169,169;[bg;2015-12-22 13:49:49.882 [Debug] [main] [HTTPTestCase.swift:29] tearDown() > LSNocilla stopped[;
+Test Suite 'PriorityPickerViewModelTests' passed at 2015-12-22 13:49:49.882.
+
+Test Suite 'PriorityTests' started at 2015-12-22 13:49:49.883
+Test Case '-[JIRATests.PriorityTests testGetEditJSON]' started.
+[fg255,0,0;[bg;2015-12-22 13:49:49.889 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.updated[;
+[fg255,0,0;[bg;2015-12-22 13:49:49.889 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.updated[;
+Test Case '-[JIRATests.PriorityTests testGetEditJSON]' passed (0.006 seconds).
+Test Case '-[JIRATests.PriorityTests testJSONMapsCorrectly]' started.
+[fg255,0,0;[bg;2015-12-22 13:49:49.895 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.updated[;
+[fg255,0,0;[bg;2015-12-22 13:49:49.895 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.updated[;
+Test Case '-[JIRATests.PriorityTests testJSONMapsCorrectly]' passed (0.006 seconds).
+Test Case '-[JIRATests.PriorityTests testPriorityStruct]' started.
+[fg255,0,0;[bg;2015-12-22 13:49:49.902 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.updated[;
+[fg255,0,0;[bg;2015-12-22 13:49:49.902 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.updated[;
+Test Case '-[JIRATests.PriorityTests testPriorityStruct]' passed (0.006 seconds).
+Test Suite 'PriorityTests' passed at 2015-12-22 13:49:49.903.
+
+Test Suite 'ProjectFieldCellModelTests' started at 2015-12-22 13:49:49.904
+Test Case '-[JIRATests.ProjectFieldCellModelTests testThatItHasCorrectDetail]' started.
+[fg255,0,0;[bg;2015-12-22 13:49:49.909 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.updated[;
+[fg255,0,0;[bg;2015-12-22 13:49:49.910 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.updated[;
+Test Case '-[JIRATests.ProjectFieldCellModelTests testThatItHasCorrectDetail]' passed (0.012 seconds).
+Test Case '-[JIRATests.ProjectFieldCellModelTests testThatItHasCorrectIconURL]' started.
+[fg255,0,0;[bg;2015-12-22 13:49:49.921 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.updated[;
+[fg255,0,0;[bg;2015-12-22 13:49:49.921 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.updated[;
+Test Case '-[JIRATests.ProjectFieldCellModelTests testThatItHasCorrectIconURL]' passed (0.011 seconds).
+Test Case '-[JIRATests.ProjectFieldCellModelTests testThatItHasCorrectTitle]' started.
+[fg255,0,0;[bg;2015-12-22 13:49:49.933 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.updated[;
+[fg255,0,0;[bg;2015-12-22 13:49:49.933 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.updated[;
+Test Case '-[JIRATests.ProjectFieldCellModelTests testThatItHasCorrectTitle]' passed (0.011 seconds).
+Test Case '-[JIRATests.ProjectFieldCellModelTests testThatItHasIconRoundnessAsSubtle]' started.
+[fg255,0,0;[bg;2015-12-22 13:49:49.944 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.updated[;
+[fg255,0,0;[bg;2015-12-22 13:49:49.944 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.updated[;
+Test Case '-[JIRATests.ProjectFieldCellModelTests testThatItHasIconRoundnessAsSubtle]' passed (0.011 seconds).
+Test Case '-[JIRATests.ProjectFieldCellModelTests testThatItHasIconSizeOf30x30]' started.
+[fg255,0,0;[bg;2015-12-22 13:49:49.956 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.updated[;
+[fg255,0,0;[bg;2015-12-22 13:49:49.956 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.updated[;
+Test Case '-[JIRATests.ProjectFieldCellModelTests testThatItHasIconSizeOf30x30]' passed (0.011 seconds).
+Test Suite 'ProjectFieldCellModelTests' passed at 2015-12-22 13:49:49.962.
+
+Test Suite 'ProjectPickerCellModelTests' started at 2015-12-22 13:49:49.963
+Test Case '-[JIRATests.ProjectPickerCellModelTests testThatProjectPickerCellModelBuildsCorrectly]' started.
+Test Case '-[JIRATests.ProjectPickerCellModelTests testThatProjectPickerCellModelBuildsCorrectly]' passed (0.011 seconds).
+Test Suite 'ProjectPickerCellModelTests' passed at 2015-12-22 13:49:49.975.
+
+Test Suite 'ProjectTests' started at 2015-12-22 13:49:49.975
+Test Case '-[JIRATests.ProjectTests testProjectStruct]' started.
+Test Case '-[JIRATests.ProjectTests testProjectStruct]' passed (0.010 seconds).
+Test Case '-[JIRATests.ProjectTests testThatProjectMapsCorrectly]' started.
+Test Case '-[JIRATests.ProjectTests testThatProjectMapsCorrectly]' passed (0.010 seconds).
+Test Suite 'ProjectTests' passed at 2015-12-22 13:49:49.997.
+
+Test Suite 'PushManagerSpec' started at 2015-12-22 13:49:49.998
+Test Case '-[JIRATests.PushManagerSpec Test_server_URL_normalization_before_submit_to_Parse__URL_without_scheme__Should_append_scheme_https_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineManagerPushManagerSpecswift_13]' started.
+https://ios.jira-dev.com
+Test Case '-[JIRATests.PushManagerSpec Test_server_URL_normalization_before_submit_to_Parse__URL_without_scheme__Should_append_scheme_https_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineManagerPushManagerSpecswift_13]' passed (0.023 seconds).
+Test Case '-[JIRATests.PushManagerSpec Test_server_URL_normalization_before_submit_to_Parse__URL_contains_path__issue_PP_1___Should_remove_the_path_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineManagerPushManagerSpecswift_20]' started.
+https://ios.jira-dev.com
+Test Case '-[JIRATests.PushManagerSpec Test_server_URL_normalization_before_submit_to_Parse__URL_contains_path__issue_PP_1___Should_remove_the_path_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineManagerPushManagerSpecswift_20]' passed (0.001 seconds).
+Test Case '-[JIRATests.PushManagerSpec Test_server_URL_normalization_before_submit_to_Parse__URL_has_suffix____Should_remove_the_suffix___UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineManagerPushManagerSpecswift_27]' started.
+https://ios.jira-dev.com
+Test Case '-[JIRATests.PushManagerSpec Test_server_URL_normalization_before_submit_to_Parse__URL_has_suffix____Should_remove_the_suffix___UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineManagerPushManagerSpecswift_27]' passed (0.001 seconds).
+Test Case '-[JIRATests.PushManagerSpec Test_server_URL_normalization_before_submit_to_Parse__URL_has_query_params__Should_remove_the_query_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineManagerPushManagerSpecswift_34]' started.
+https://ios.jira-dev.com
+Test Case '-[JIRATests.PushManagerSpec Test_server_URL_normalization_before_submit_to_Parse__URL_has_query_params__Should_remove_the_query_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineManagerPushManagerSpecswift_34]' passed (0.001 seconds).
+Test Case '-[JIRATests.PushManagerSpec Test_server_URL_normalization_before_submit_to_Parse__URL_has_fragment__Should_remove_the_fragment_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineManagerPushManagerSpecswift_41]' started.
+https://ios.jira-dev.com
+Test Case '-[JIRATests.PushManagerSpec Test_server_URL_normalization_before_submit_to_Parse__URL_has_fragment__Should_remove_the_fragment_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineManagerPushManagerSpecswift_41]' passed (0.001 seconds).
+Test Case '-[JIRATests.PushManagerSpec Test_server_URL_normalization_before_submit_to_Parse__URL_has_username__pwd__Should_accept_these_variables_and_submit_it_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineManagerPushManagerSpecswift_48]' started.
+https://admin:admin@ios.jira-dev.com
+Test Case '-[JIRATests.PushManagerSpec Test_server_URL_normalization_before_submit_to_Parse__URL_has_username__pwd__Should_accept_these_variables_and_submit_it_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineManagerPushManagerSpecswift_48]' passed (0.004 seconds).
+Test Case '-[JIRATests.PushManagerSpec Return_right_PushCategory_based_on_identifier__Identifier__IssueUpdated__Should_return_class_PushIssueUpdated_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineManagerPushManagerSpecswift_58]' started.
+IssuePushHandler
+Test Case '-[JIRATests.PushManagerSpec Return_right_PushCategory_based_on_identifier__Identifier__IssueUpdated__Should_return_class_PushIssueUpdated_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineManagerPushManagerSpecswift_58]' passed (0.001 seconds).
+Test Case '-[JIRATests.PushManagerSpec Return_right_PushCategory_based_on_identifier__Identifier__MentionedComment__Should_return_class_PushMentionedComment_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineManagerPushManagerSpecswift_65]' started.
+CommentPushHandler
+Test Case '-[JIRATests.PushManagerSpec Return_right_PushCategory_based_on_identifier__Identifier__MentionedComment__Should_return_class_PushMentionedComment_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineManagerPushManagerSpecswift_65]' passed (0.001 seconds).
+Test Case '-[JIRATests.PushManagerSpec Return_right_PushCategory_based_on_identifier__Unknown_Identifier__Should_return_class_PushDefaultCategory_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineManagerPushManagerSpecswift_72]' started.
+[fg0,0,255;[bg;2015-12-22 13:49:50.035 [Info] [main] [PushManager.swift:43] getCategoryHandler > Push Category can not be initialised with identifier Optional("Unknown Identifier")[;
+DefaultPushHandler
+Test Case '-[JIRATests.PushManagerSpec Return_right_PushCategory_based_on_identifier__Unknown_Identifier__Should_return_class_PushDefaultCategory_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineManagerPushManagerSpecswift_72]' passed (0.002 seconds).
+Test Case '-[JIRATests.PushManagerSpec Extract_categoryID_from_remote_notification_infos__a_sample_remote_notification_infos__should_extract_categoryID_is_issueUpdated_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineManagerPushManagerSpecswift_82]' started.
+Test Case '-[JIRATests.PushManagerSpec Extract_categoryID_from_remote_notification_infos__a_sample_remote_notification_infos__should_extract_categoryID_is_issueUpdated_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineManagerPushManagerSpecswift_82]' passed (0.027 seconds).
+Test Suite 'PushManagerSpec' passed at 2015-12-22 13:49:50.065.
+
+Test Suite 'RequestGetCreateFieldsMetaTests' started at 2015-12-22 13:49:50.066
+[fg169,169,169;[bg;2015-12-22 13:49:50.068 [Debug] [main] [HTTPTestCase.swift:24] setUp() > LSNocilla started[;
+Test Case '-[JIRATests.RequestGetCreateFieldsMetaTests testSerializeSuccess]' started.
+2015-12-22 13:49:50.564 [Debug] [main] [SchemaVersioning.swift:29] incompatibleSchemaCheck(_:withCurrentSchemaVersion:) > Last schema version: 10, current app schema version: 10
+2015-12-22 13:49:50.565 [Debug] [main] [SchemaVersioning.swift:29] incompatibleSchemaCheck(_:withCurrentSchemaVersion:) > Last schema version: 10, current app schema version: 10
+[fg169,169,169;[bg;2015-12-22 13:49:50.565 [Debug] [main] [RequestGetCreateFieldsMetaTests.swift:30] testSerializeSuccess() > Entering RequestGetCreateFieldsMetaTests[;
+[fg169,169,169;[bg;2015-12-22 13:49:50.566 [Debug] [main] [BaseRequest.swift:12] init(method:path:headers:parameters:) > [GET]: rest/api/2/issue/createmeta?projectIds=10500&issuetypeIds=3&expand=projects.issuetypes.fields[;
+[fg169,169,169;[bg;2015-12-22 13:49:50.569 [Debug] [main] [BaseRequest.swift:18] onCompleted > [Optional(ATRestKit.HTTPMethod.GET) success]: Optional("rest/api/2/issue/createmeta?projectIds=10500&issuetypeIds=3&expand=projects.issuetypes.fields")[;
+[fg169,169,169;[bg;2015-12-22 13:49:50.569 [Debug] [main] [RequestGetCreateFieldsMetaTests.swift:38] testSerializeSuccess() > OnCompleted RequestGetCreateFieldsMetaTests[;
+[fg169,169,169;[bg;2015-12-22 13:49:50.570 [Debug] [main] [RequestGetCreateFieldsMetaTests.swift:55] testSerializeSuccess() > Leaving RequestGetCreateFieldsMetaTests[;
+[fg169,169,169;[bg;2015-12-22 13:49:50.571 [Debug] [main] [HTTPTestCase.swift:42] tearDown() > LSNocilla clearStubs[;
+Test Case '-[JIRATests.RequestGetCreateFieldsMetaTests testSerializeSuccess]' passed (0.506 seconds).
+[fg169,169,169;[bg;2015-12-22 13:49:50.576 [Debug] [main] [HTTPTestCase.swift:29] tearDown() > LSNocilla stopped[;
+Test Suite 'RequestGetCreateFieldsMetaTests' passed at 2015-12-22 13:49:50.577.
+
+Test Suite 'RequestGetCreateMetaTests' started at 2015-12-22 13:49:50.577
+[fg169,169,169;[bg;2015-12-22 13:49:50.579 [Debug] [main] [HTTPTestCase.swift:24] setUp() > LSNocilla started[;
+Test Case '-[JIRATests.RequestGetCreateMetaTests testSerializeSuccess]' started.
+2015-12-22 13:49:51.082 [Debug] [main] [SchemaVersioning.swift:29] incompatibleSchemaCheck(_:withCurrentSchemaVersion:) > Last schema version: 10, current app schema version: 10
+2015-12-22 13:49:51.083 [Debug] [main] [SchemaVersioning.swift:29] incompatibleSchemaCheck(_:withCurrentSchemaVersion:) > Last schema version: 10, current app schema version: 10
+[fg169,169,169;[bg;2015-12-22 13:49:51.083 [Debug] [main] [RequestGetCreateMetaTests.swift:30] testSerializeSuccess() > Entering RequestGetCreateMetaTests[;
+[fg169,169,169;[bg;2015-12-22 13:49:51.084 [Debug] [main] [BaseRequest.swift:12] init(method:path:headers:parameters:) > [GET]: rest/api/2/issue/createmeta[;
+[fg169,169,169;[bg;2015-12-22 13:49:51.087 [Debug] [main] [BaseRequest.swift:18] onCompleted > [Optional(ATRestKit.HTTPMethod.GET) success]: Optional("rest/api/2/issue/createmeta")[;
+[fg169,169,169;[bg;2015-12-22 13:49:51.088 [Debug] [main] [RequestGetCreateMetaTests.swift:38] testSerializeSuccess() > OnCompleted RequestGetCreateMetaTests[;
+[fg169,169,169;[bg;2015-12-22 13:49:51.090 [Debug] [main] [RequestGetCreateMetaTests.swift:54] testSerializeSuccess() > Leaving RequestGetCreateMetaTests[;
+[fg169,169,169;[bg;2015-12-22 13:49:51.090 [Debug] [main] [HTTPTestCase.swift:42] tearDown() > LSNocilla clearStubs[;
+Test Case '-[JIRATests.RequestGetCreateMetaTests testSerializeSuccess]' passed (0.513 seconds).
+[fg169,169,169;[bg;2015-12-22 13:49:51.095 [Debug] [main] [HTTPTestCase.swift:29] tearDown() > LSNocilla stopped[;
+Test Suite 'RequestGetCreateMetaTests' passed at 2015-12-22 13:49:51.095.
+
+Test Suite 'RequestGetEditFieldsMetaTests' started at 2015-12-22 13:49:51.096
+[fg169,169,169;[bg;2015-12-22 13:49:51.097 [Debug] [main] [HTTPTestCase.swift:24] setUp() > LSNocilla started[;
+Test Case '-[JIRATests.RequestGetEditFieldsMetaTests testSerializeSuccess]' started.
+2015-12-22 13:49:51.668 [Debug] [main] [SchemaVersioning.swift:29] incompatibleSchemaCheck(_:withCurrentSchemaVersion:) > Last schema version: 10, current app schema version: 10
+2015-12-22 13:49:51.669 [Debug] [main] [SchemaVersioning.swift:29] incompatibleSchemaCheck(_:withCurrentSchemaVersion:) > Last schema version: 10, current app schema version: 10
+[fg169,169,169;[bg;2015-12-22 13:49:51.669 [Debug] [main] [RequestGetEditFieldsMetaTests.swift:29] testSerializeSuccess() > Entering RequestGetEditFieldsMetaTests[;
+[fg169,169,169;[bg;2015-12-22 13:49:51.670 [Debug] [main] [BaseRequest.swift:12] init(method:path:headers:parameters:) > [GET]: rest/api/2/issue/10300/editmeta[;
+[fg169,169,169;[bg;2015-12-22 13:49:51.673 [Debug] [main] [BaseRequest.swift:18] onCompleted > [Optional(ATRestKit.HTTPMethod.GET) success]: Optional("rest/api/2/issue/10300/editmeta")[;
+[fg169,169,169;[bg;2015-12-22 13:49:51.673 [Debug] [main] [RequestGetEditFieldsMetaTests.swift:37] testSerializeSuccess() > OnCompleted RequestGetEditFieldsMetaTests[;
+[fg169,169,169;[bg;2015-12-22 13:49:51.674 [Debug] [main] [RequestGetEditFieldsMetaTests.swift:53] testSerializeSuccess() > Leaving RequestGetEditFieldsMetaTests[;
+[fg169,169,169;[bg;2015-12-22 13:49:51.675 [Debug] [main] [HTTPTestCase.swift:42] tearDown() > LSNocilla clearStubs[;
+Test Case '-[JIRATests.RequestGetEditFieldsMetaTests testSerializeSuccess]' passed (0.579 seconds).
+[fg169,169,169;[bg;2015-12-22 13:49:51.679 [Debug] [main] [HTTPTestCase.swift:29] tearDown() > LSNocilla stopped[;
+Test Suite 'RequestGetEditFieldsMetaTests' passed at 2015-12-22 13:49:51.679.
+
+Test Suite 'SharedCollectionSpec' started at 2015-12-22 13:49:51.680
+Test Case '-[JIRATests.SharedCollectionSpec CollectionCellModel__Diffing_algorithm__works_for_empty_to_empty_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineStandardLibrarySharedCollectionSpecswift_18]' started.
+Test Case '-[JIRATests.SharedCollectionSpec CollectionCellModel__Diffing_algorithm__works_for_empty_to_empty_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineStandardLibrarySharedCollectionSpecswift_18]' passed (0.001 seconds).
+Test Case '-[JIRATests.SharedCollectionSpec CollectionCellModel__Diffing_algorithm__works_for_empty_to_some_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineStandardLibrarySharedCollectionSpecswift_21]' started.
+Test Case '-[JIRATests.SharedCollectionSpec CollectionCellModel__Diffing_algorithm__works_for_empty_to_some_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineStandardLibrarySharedCollectionSpecswift_21]' passed (0.004 seconds).
+Test Case '-[JIRATests.SharedCollectionSpec CollectionCellModel__Diffing_algorithm__works_for_some_to_empty_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineStandardLibrarySharedCollectionSpecswift_24]' started.
+Test Case '-[JIRATests.SharedCollectionSpec CollectionCellModel__Diffing_algorithm__works_for_some_to_empty_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineStandardLibrarySharedCollectionSpecswift_24]' passed (0.002 seconds).
+Test Case '-[JIRATests.SharedCollectionSpec CollectionCellModel__Diffing_algorithm__works_for_some_to_same_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineStandardLibrarySharedCollectionSpecswift_27]' started.
+Test Case '-[JIRATests.SharedCollectionSpec CollectionCellModel__Diffing_algorithm__works_for_some_to_same_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineStandardLibrarySharedCollectionSpecswift_27]' passed (0.006 seconds).
+Test Case '-[JIRATests.SharedCollectionSpec CollectionCellModel__Diffing_algorithm__works_removes_elements_correctly_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineStandardLibrarySharedCollectionSpecswift_30]' started.
+Test Case '-[JIRATests.SharedCollectionSpec CollectionCellModel__Diffing_algorithm__works_removes_elements_correctly_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineStandardLibrarySharedCollectionSpecswift_30]' passed (0.001 seconds).
+Test Case '-[JIRATests.SharedCollectionSpec CollectionCellModel__Diffing_algorithm__works_inserts_elements_correctly_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineStandardLibrarySharedCollectionSpecswift_35]' started.
+Test Case '-[JIRATests.SharedCollectionSpec CollectionCellModel__Diffing_algorithm__works_inserts_elements_correctly_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineStandardLibrarySharedCollectionSpecswift_35]' passed (0.001 seconds).
+Test Case '-[JIRATests.SharedCollectionSpec CollectionCellModel__Diffing_algorithm__works_for_swapping_elements_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineStandardLibrarySharedCollectionSpecswift_40]' started.
+Test Case '-[JIRATests.SharedCollectionSpec CollectionCellModel__Diffing_algorithm__works_for_swapping_elements_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineStandardLibrarySharedCollectionSpecswift_40]' passed (0.007 seconds).
+Test Suite 'SharedCollectionSpec' passed at 2015-12-22 13:49:51.706.
+
+Test Suite 'SprintFieldCellModelTests' started at 2015-12-22 13:49:51.707
+Test Case '-[JIRATests.SprintFieldCellModelTests testThatItHasCorrectDetail]' started.
+[fg255,0,0;[bg;2015-12-22 13:49:51.713 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.updated[;
+[fg255,0,0;[bg;2015-12-22 13:49:51.713 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.updated[;
+Test Case '-[JIRATests.SprintFieldCellModelTests testThatItHasCorrectDetail]' passed (0.013 seconds).
+Test Case '-[JIRATests.SprintFieldCellModelTests testThatItHasCorrectTitle]' started.
+[fg255,0,0;[bg;2015-12-22 13:49:51.725 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.updated[;
+[fg255,0,0;[bg;2015-12-22 13:49:51.725 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.updated[;
+Test Case '-[JIRATests.SprintFieldCellModelTests testThatItHasCorrectTitle]' passed (0.011 seconds).
+Test Suite 'SprintFieldCellModelTests' passed at 2015-12-22 13:49:51.731.
+
+Test Suite 'StandardFieldCellSpec' started at 2015-12-22 13:49:51.732
+Test Case '-[JIRATests.StandardFieldCellSpec Cell__set_model__has_text_label_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleComponentFieldCellStandardFieldCellTestsswift_17]' started.
+Test Case '-[JIRATests.StandardFieldCellSpec Cell__set_model__has_text_label_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleComponentFieldCellStandardFieldCellTestsswift_17]' passed (0.001 seconds).
+Test Case '-[JIRATests.StandardFieldCellSpec Cell__set_model__has_detail_text_label_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleComponentFieldCellStandardFieldCellTestsswift_21]' started.
+Test Case '-[JIRATests.StandardFieldCellSpec Cell__set_model__has_detail_text_label_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsViewModuleComponentFieldCellStandardFieldCellTestsswift_21]' passed (0.001 seconds).
+Test Suite 'StandardFieldCellSpec' passed at** TEST SUCCEEDED **
+
+ 2015-12-22 13:49:51.735.
+
+Test Suite 'StatusFieldCellModelTests' started at 2015-12-22 13:49:51.735
+Test Case '-[JIRATests.StatusFieldCellModelTests testThatItHasCorrectLozengeColor]' started.
+[fg255,0,0;[bg;2015-12-22 13:49:51.742 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.updated[;
+[fg255,0,0;[bg;2015-12-22 13:49:51.742 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.updated[;
+Test Case '-[JIRATests.StatusFieldCellModelTests testThatItHasCorrectLozengeColor]' passed (0.014 seconds).
+Test Case '-[JIRATests.StatusFieldCellModelTests testThatItHasCorrectLozengeName]' started.
+[fg255,0,0;[bg;2015-12-22 13:49:51.757 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.updated[;
+[fg255,0,0;[bg;2015-12-22 13:49:51.757 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.updated[;
+Test Case '-[JIRATests.StatusFieldCellModelTests testThatItHasCorrectLozengeName]' passed (0.012 seconds).
+Test Case '-[JIRATests.StatusFieldCellModelTests testThatItHasCorrectTitle]' started.
+[fg255,0,0;[bg;2015-12-22 13:49:51.768 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.updated[;
+[fg255,0,0;[bg;2015-12-22 13:49:51.769 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.updated[;
+Test Case '-[JIRATests.StatusFieldCellModelTests testThatItHasCorrectTitle]' passed (0.011 seconds).
+Test Suite 'StatusFieldCellModelTests' passed at 2015-12-22 13:49:51.775.
+
+Test Suite 'StringFieldCellModelTests' started at 2015-12-22 13:49:51.775
+Test Case '-[JIRATests.StringFieldCellModelTests testEpicLink]' started.
+[fg255,0,0;[bg;2015-12-22 13:49:51.781 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.updated[;
+[fg255,0,0;[bg;2015-12-22 13:49:51.781 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.updated[;
+Test Case '-[JIRATests.StringFieldCellModelTests testEpicLink]' passed (0.011 seconds).
+Test Case '-[JIRATests.StringFieldCellModelTests testNumberField]' started.
+[fg255,0,0;[bg;2015-12-22 13:49:51.792 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.updated[;
+[fg255,0,0;[bg;2015-12-22 13:49:51.792 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.updated[;
+Test Case '-[JIRATests.StringFieldCellModelTests testNumberField]' passed (0.011 seconds).
+Test Case '-[JIRATests.StringFieldCellModelTests testOptionField]' started.
+[fg255,0,0;[bg;2015-12-22 13:49:51.803 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.updated[;
+[fg255,0,0;[bg;2015-12-22 13:49:51.804 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.updated[;
+Test Case '-[JIRATests.StringFieldCellModelTests testOptionField]' passed (0.011 seconds).
+Test Case '-[JIRATests.StringFieldCellModelTests testStringField]' started.
+[fg255,0,0;[bg;2015-12-22 13:49:51.815 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.updated[;
+[fg255,0,0;[bg;2015-12-22 13:49:51.815 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.updated[;
+Test Case '-[JIRATests.StringFieldCellModelTests testStringField]' passed (0.011 seconds).
+Test Suite 'StringFieldCellModelTests' passed at 2015-12-22 13:49:51.821.
+
+Test Suite 'StringListFieldCellModelTests' started at 2015-12-22 13:49:51.822
+Test Case '-[JIRATests.StringListFieldCellModelTests testComponentField]' started.
+[fg255,0,0;[bg;2015-12-22 13:49:51.827 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.updated[;
+[fg255,0,0;[bg;2015-12-22 13:49:51.827 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.updated[;
+Test Case '-[JIRATests.StringListFieldCellModelTests testComponentField]' passed (0.011 seconds).
+Test Case '-[JIRATests.StringListFieldCellModelTests testLabel]' started.
+[fg255,0,0;[bg;2015-12-22 13:49:51.838 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.updated[;
+[fg255,0,0;[bg;2015-12-22 13:49:51.839 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.updated[;
+Test Case '-[JIRATests.StringListFieldCellModelTests testLabel]' passed (0.011 seconds).
+Test Case '-[JIRATests.StringListFieldCellModelTests testMultiSelectOptionField]' started.
+[fg255,0,0;[bg;2015-12-22 13:49:51.849 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.updated[;
+[fg255,0,0;[bg;2015-12-22 13:49:51.850 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.updated[;
+Test Case '-[JIRATests.StringListFieldCellModelTests testMultiSelectOptionField]' passed (0.011 seconds).
+Test Case '-[JIRATests.StringListFieldCellModelTests testVersionField]' started.
+[fg255,0,0;[bg;2015-12-22 13:49:51.861 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.updated[;
+[fg255,0,0;[bg;2015-12-22 13:49:51.861 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.updated[;
+Test Case '-[JIRATests.StringListFieldCellModelTests testVersionField]' passed (0.011 seconds).
+Test Suite 'StringListFieldCellModelTests' passed at 2015-12-22 13:49:51.868.
+
+Test Suite 'URLUtilsTests' started at 2015-12-22 13:49:51.868
+Test Case '-[JIRATests.URLUtilsTests urlForPNGFormat____from_URL__returns_correct_URL_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineUtilsURLUtilsTestsswift_20]' started.
+Test Case '-[JIRATests.URLUtilsTests urlForPNGFormat____from_URL__returns_correct_URL_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineUtilsURLUtilsTestsswift_20]' passed (0.001 seconds).
+Test Case '-[JIRATests.URLUtilsTests urlForPNGFormat____from_URL__returns_correct_URL_from_URL_with_existing_size_query_param_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineUtilsURLUtilsTestsswift_26]' started.
+Test Case '-[JIRATests.URLUtilsTests urlForPNGFormat____from_URL__returns_correct_URL_from_URL_with_existing_size_query_param_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineUtilsURLUtilsTestsswift_26]' passed (0.001 seconds).
+Test Case '-[JIRATests.URLUtilsTests urlForPNGFormat____from_URL__returns_nil_from_invalid_URL_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineUtilsURLUtilsTestsswift_32]' started.
+Test Case '-[JIRATests.URLUtilsTests urlForPNGFormat____from_URL__returns_nil_from_invalid_URL_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineUtilsURLUtilsTestsswift_32]' passed (0.001 seconds).
+Test Case '-[JIRATests.URLUtilsTests urlForPNGFormat____from_URL__returns_nil_from_nil_URL_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineUtilsURLUtilsTestsswift_37]' started.
+Test Case '-[JIRATests.URLUtilsTests urlForPNGFormat____from_URL__returns_nil_from_nil_URL_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineUtilsURLUtilsTestsswift_37]' passed (0.001 seconds).
+Test Case '-[JIRATests.URLUtilsTests urlForPNGFormat____from_string__returns_correct_URL_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineUtilsURLUtilsTestsswift_44]' started.
+Test Case '-[JIRATests.URLUtilsTests urlForPNGFormat____from_string__returns_correct_URL_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineUtilsURLUtilsTestsswift_44]' passed (0.001 seconds).
+Test Case '-[JIRATests.URLUtilsTests urlForPNGFormat____from_string__returns_nil_from_invalid_string_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineUtilsURLUtilsTestsswift_49]' started.
+Test Case '-[JIRATests.URLUtilsTests urlForPNGFormat____from_string__returns_nil_from_invalid_string_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEngineUtilsURLUtilsTestsswift_49]' passed (0.001 seconds).
+Test Suite 'URLUtilsTests' passed at 2015-12-22 13:49:51.877.
+
+Test Suite 'UserFieldCellModelTests' started at 2015-12-22 13:49:51.878
+Test Case '-[JIRATests.UserFieldCellModelTests testThatItHasCorrectDetail]' started.
+[fg255,0,0;[bg;2015-12-22 13:49:51.885 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.updated[;
+[fg255,0,0;[bg;2015-12-22 13:49:51.886 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.updated[;
+Test Case '-[JIRATests.UserFieldCellModelTests testThatItHasCorrectDetail]' passed (0.013 seconds).
+Test Case '-[JIRATests.UserFieldCellModelTests testThatItHasCorrectIconURL]' started.
+[fg255,0,0;[bg;2015-12-22 13:49:51.897 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.updated[;
+[fg255,0,0;[bg;2015-12-22 13:49:51.898 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.updated[;
+Test Case '-[JIRATests.UserFieldCellModelTests testThatItHasCorrectIconURL]' passed (0.011 seconds).
+Test Case '-[JIRATests.UserFieldCellModelTests testThatItHasCorrectTitle]' started.
+[fg255,0,0;[bg;2015-12-22 13:49:51.909 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.updated[;
+[fg255,0,0;[bg;2015-12-22 13:49:51.910 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.updated[;
+Test Case '-[JIRATests.UserFieldCellModelTests testThatItHasCorrectTitle]' passed (0.011 seconds).
+Test Case '-[JIRATests.UserFieldCellModelTests testThatItHasIconRoundnessAsSubtle]' started.
+[fg255,0,0;[bg;2015-12-22 13:49:51.921 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.updated[;
+[fg255,0,0;[bg;2015-12-22 13:49:51.921 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.updated[;
+Test Case '-[JIRATests.UserFieldCellModelTests testThatItHasIconRoundnessAsSubtle]' passed (0.011 seconds).
+Test Case '-[JIRATests.UserFieldCellModelTests testThatItHasIconSizeOf25x25]' started.
+[fg255,0,0;[bg;2015-12-22 13:49:51.932 [Error] [main] [Issue.swift:222] getTypeOfField > Cannot find field schema information of PP-4.updated[;
+[fg255,0,0;[bg;2015-12-22 13:49:51.932 [Error] [main] [Issue.swift:198] getRawValueOfField > Cannot find field value information of PP-4.updated[;
+Test Case '-[JIRATests.UserFieldCellModelTests testThatItHasIconSizeOf25x25]' passed (0.011 seconds).
+Test Suite 'UserFieldCellModelTests' passed at 2015-12-22 13:49:51.938.
+
+Test Suite 'UserSpecs' started at 2015-12-22 13:49:51.939
+Test Case '-[JIRATests.UserSpecs Map_JSON_with_User_properties__is_alright_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEnginePersistenceEntityUserTestsswift_9]' started.
+Test Case '-[JIRATests.UserSpecs Map_JSON_with_User_properties__is_alright_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEnginePersistenceEntityUserTestsswift_9]' passed (0.002 seconds).
+Test Case '-[JIRATests.UserSpecs User_is_hashable__is_different_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEnginePersistenceEntityUserTestsswift_33]' started.
+Test Case '-[JIRATests.UserSpecs User_is_hashable__is_different_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEnginePersistenceEntityUserTestsswift_33]' passed (0.001 seconds).
+Test Case '-[JIRATests.UserSpecs User_is_hashable__is_same_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEnginePersistenceEntityUserTestsswift_40]' started.
+Test Case '-[JIRATests.UserSpecs User_is_hashable__is_same_UsersjabernethybambooagenthomexmldatabuilddirMOBJMIJOB1JIRATestsEnginePersistenceEntityUserTestsswift_40]' passed (0.001 seconds).
+Test Suite 'UserSpecs' passed at 2015-12-22 13:49:51.945.
+
+Test Suite 'JIRATests.xctest' passed at 2015-12-22 13:49:51.945.

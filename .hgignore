@@ -1,0 +1,12 @@
+syntax: glob
+.classpath
+.project
+.settings
+.idea
+.git
+target
+*.iml
+*.ipr
+*.iws
+activemq-data
+atlassian-bamboo.log

@@ -1,0 +1,437 @@
+=== BUILD NATIVE TARGET MyCocoaApp OF PROJECT MyCocoaApp WITH THE DEFAULT CONFIGURATION (Release) ===
+Check dependencies
+
+
+=== BUILD NATIVE TARGET MyCocoaAppTests OF PROJECT MyCocoaApp WITH THE DEFAULT CONFIGURATION (Release) ===
+Check dependencies
+
+CompileC build/MyCocoaApp.build/Release/MyCocoaAppTests.build/Objects-normal/x86_64/MyCocoaAppTests.o MyCocoaAppTests/MyCocoaAppTests.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/jdumay/Desktop/MyCocoaApp
+    setenv LANG en_US.US-ASCII
+    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -DIBOutlet=__attribute__((iboutlet)) -DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName))) -DIBAction=void)__attribute__((ibaction) -iquote /Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release/MyCocoaAppTests.build/MyCocoaAppTests-generated-files.hmap -I/Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release/MyCocoaAppTests.build/MyCocoaAppTests-own-target-headers.hmap -I/Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release/MyCocoaAppTests.build/MyCocoaAppTests-all-target-headers.hmap -iquote /Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release/MyCocoaAppTests.build/MyCocoaAppTests-project-headers.hmap -I/Users/jdumay/Desktop/MyCocoaApp/build/Release/include -I/Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release/MyCocoaAppTests.build/DerivedSources/x86_64 -I/Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release/MyCocoaAppTests.build/DerivedSources -F/Users/jdumay/Desktop/MyCocoaApp/build/Release -F/Developer/Library/Frameworks -include /var/folders/_n/jlxjz6bj5vn67rt4t00n6xf80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyCocoaApp-Prefix-djmszjtqexusrghgpdqyxsmvuygx/MyCocoaApp-Prefix.pch -c /Users/jdumay/Desktop/MyCocoaApp/MyCocoaAppTests/MyCocoaAppTests.m -o /Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release/MyCocoaAppTests.build/Objects-normal/x86_64/MyCocoaAppTests.o
+
+CompileC build/MyCocoaApp.build/Release/MyCocoaAppTests.build/Objects-normal/i386/MyCocoaAppTests.o MyCocoaAppTests/MyCocoaAppTests.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/jdumay/Desktop/MyCocoaApp
+    setenv LANG en_US.US-ASCII
+    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -DIBOutlet=__attribute__((iboutlet)) -DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName))) -DIBAction=void)__attribute__((ibaction) -iquote /Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release/MyCocoaAppTests.build/MyCocoaAppTests-generated-files.hmap -I/Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release/MyCocoaAppTests.build/MyCocoaAppTests-own-target-headers.hmap -I/Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release/MyCocoaAppTests.build/MyCocoaAppTests-all-target-headers.hmap -iquote /Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release/MyCocoaAppTests.build/MyCocoaAppTests-project-headers.hmap -I/Users/jdumay/Desktop/MyCocoaApp/build/Release/include -I/Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release/MyCocoaAppTests.build/DerivedSources/i386 -I/Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release/MyCocoaAppTests.build/DerivedSources -F/Users/jdumay/Desktop/MyCocoaApp/build/Release -F/Developer/Library/Frameworks -include /var/folders/_n/jlxjz6bj5vn67rt4t00n6xf80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyCocoaApp-Prefix-bscpsfdrwumjbybohkrvhogblnqh/MyCocoaApp-Prefix.pch -c /Users/jdumay/Desktop/MyCocoaApp/MyCocoaAppTests/MyCocoaAppTests.m -o /Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release/MyCocoaAppTests.build/Objects-normal/i386/MyCocoaAppTests.o
+
+Ld build/MyCocoaApp.build/Release/MyCocoaAppTests.build/Objects-normal/x86_64/MyCocoaAppTests normal x86_64
+    cd /Users/jdumay/Desktop/MyCocoaApp
+    setenv MACOSX_DEPLOYMENT_TARGET 10.7
+    /Developer/usr/bin/clang -arch x86_64 -bundle -isysroot /Developer/SDKs/MacOSX10.7.sdk -L/Users/jdumay/Desktop/MyCocoaApp/build/Release -F/Users/jdumay/Desktop/MyCocoaApp/build/Release -F/Developer/Library/Frameworks -filelist /Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release/MyCocoaAppTests.build/Objects-normal/x86_64/MyCocoaAppTests.LinkFileList -mmacosx-version-min=10.7 -bundle_loader /Users/jdumay/Desktop/MyCocoaApp/build/Release/MyCocoaApp.app/Contents/MacOS/MyCocoaApp -framework SenTestingKit -framework Cocoa -o /Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release/MyCocoaAppTests.build/Objects-normal/x86_64/MyCocoaAppTests
+
+Ld build/MyCocoaApp.build/Release/MyCocoaAppTests.build/Objects-normal/i386/MyCocoaAppTests normal i386
+    cd /Users/jdumay/Desktop/MyCocoaApp
+    setenv MACOSX_DEPLOYMENT_TARGET 10.7
+    /Developer/usr/bin/clang -arch i386 -bundle -isysroot /Developer/SDKs/MacOSX10.7.sdk -L/Users/jdumay/Desktop/MyCocoaApp/build/Release -F/Users/jdumay/Desktop/MyCocoaApp/build/Release -F/Developer/Library/Frameworks -filelist /Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release/MyCocoaAppTests.build/Objects-normal/i386/MyCocoaAppTests.LinkFileList -mmacosx-version-min=10.7 -bundle_loader /Users/jdumay/Desktop/MyCocoaApp/build/Release/MyCocoaApp.app/Contents/MacOS/MyCocoaApp -framework SenTestingKit -framework Cocoa -o /Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release/MyCocoaAppTests.build/Objects-normal/i386/MyCocoaAppTests
+
+CreateUniversalBinary build/Release/MyCocoaAppTests.octest/Contents/MacOS/MyCocoaAppTests normal "x86_64 i386"
+    cd /Users/jdumay/Desktop/MyCocoaApp
+    /usr/bin/lipo -create /Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release/MyCocoaAppTests.build/Objects-normal/x86_64/MyCocoaAppTests /Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release/MyCocoaAppTests.build/Objects-normal/i386/MyCocoaAppTests -output /Users/jdumay/Desktop/MyCocoaApp/build/Release/MyCocoaAppTests.octest/Contents/MacOS/MyCocoaAppTests
+
+GenerateDSYMFile build/Release/MyCocoaAppTests.octest.dSYM build/Release/MyCocoaAppTests.octest/Contents/MacOS/MyCocoaAppTests
+    cd /Users/jdumay/Desktop/MyCocoaApp
+    /Developer/usr/bin/dsymutil /Users/jdumay/Desktop/MyCocoaApp/build/Release/MyCocoaAppTests.octest/Contents/MacOS/MyCocoaAppTests -o /Users/jdumay/Desktop/MyCocoaApp/build/Release/MyCocoaAppTests.octest.dSYM
+
+PhaseScriptExecution "Run Script" build/MyCocoaApp.build/Release/MyCocoaAppTests.build/Script-0F3F6D1F13DCF7970039D5A6.sh
+    cd /Users/jdumay/Desktop/MyCocoaApp
+    setenv ACTION build
+    setenv ALTERNATE_GROUP staff
+    setenv ALTERNATE_MODE u+w,go-w,a+rX
+    setenv ALTERNATE_OWNER jdumay
+    setenv ALWAYS_SEARCH_USER_PATHS NO
+    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer
+    setenv APPLE_INTERNAL_DIR /AppleInternal
+    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation
+    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library
+    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools
+    setenv APPLY_RULES_IN_COPY_FILES NO
+    setenv ARCHS "x86_64 i386"
+    setenv ARCHS_STANDARD_32_64_BIT "x86_64 i386"
+    setenv ARCHS_STANDARD_32_BIT i386
+    setenv ARCHS_STANDARD_64_BIT x86_64
+    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"
+    setenv BUILD_COMPONENTS "headers build"
+    setenv BUILD_DIR /Users/jdumay/Desktop/MyCocoaApp/build
+    setenv BUILD_ROOT /Users/jdumay/Desktop/MyCocoaApp/build
+    setenv BUILD_STYLE 
+    setenv BUILD_VARIANTS normal
+    setenv BUILT_PRODUCTS_DIR /Users/jdumay/Desktop/MyCocoaApp/build/Release
+    setenv BUNDLE_LOADER /Users/jdumay/Desktop/MyCocoaApp/build/Release/MyCocoaApp.app/Contents/MacOS/MyCocoaApp
+    setenv CACHE_ROOT /var/folders/_n/jlxjz6bj5vn67rt4t00n6xf80000gn/C/com.apple.Xcode.501
+    setenv CCHROOT /var/folders/_n/jlxjz6bj5vn67rt4t00n6xf80000gn/C/com.apple.Xcode.501
+    setenv CHMOD /bin/chmod
+    setenv CHOWN /usr/sbin/chown
+    setenv CLASS_FILE_DIR /Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release/MyCocoaAppTests.build/JavaClasses
+    setenv CLEAN_PRECOMPS YES
+    setenv CLONE_HEADERS NO
+    setenv CODESIGNING_FOLDER_PATH /Users/jdumay/Desktop/MyCocoaApp/build/Release/MyCocoaAppTests.octest
+    setenv CODE_SIGNING_ALLOWED YES
+    setenv COMBINE_HIDPI_IMAGES NO
+    setenv COMMAND_MODE legacy
+    setenv COMPOSITE_SDK_DIRS /var/folders/_n/jlxjz6bj5vn67rt4t00n6xf80000gn/C/com.apple.Xcode.501/CompositeSDKs
+    setenv CONFIGURATION Release
+    setenv CONFIGURATION_BUILD_DIR /Users/jdumay/Desktop/MyCocoaApp/build/Release
+    setenv CONFIGURATION_TEMP_DIR /Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release
+    setenv CONTENTS_FOLDER_PATH MyCocoaAppTests.octest/Contents
+    setenv COPYING_PRESERVES_HFS_DATA NO
+    setenv COPY_PHASE_STRIP YES
+    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES
+    setenv CP /bin/cp
+    setenv CURRENT_ARCH i386
+    setenv CURRENT_VARIANT normal
+    setenv DEAD_CODE_STRIPPING NO
+    setenv DEBUGGING_SYMBOLS YES
+    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym
+    setenv DEPLOYMENT_LOCATION NO
+    setenv DEPLOYMENT_POSTPROCESSING NO
+    setenv DERIVED_FILES_DIR /Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release/MyCocoaAppTests.build/DerivedSources
+    setenv DERIVED_FILE_DIR /Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release/MyCocoaAppTests.build/DerivedSources
+    setenv DERIVED_SOURCES_DIR /Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release/MyCocoaAppTests.build/DerivedSources
+    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications
+    setenv DEVELOPER_BIN_DIR /Developer/usr/bin
+    setenv DEVELOPER_DIR /Developer
+    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks
+    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""
+    setenv DEVELOPER_LIBRARY_DIR /Developer/Library
+    setenv DEVELOPER_SDK_DIR /Developer/SDKs
+    setenv DEVELOPER_TOOLS_DIR /Developer/Tools
+    setenv DEVELOPER_USR_DIR /Developer/usr
+    setenv DEVELOPMENT_LANGUAGE English
+    setenv DOCUMENTATION_FOLDER_PATH MyCocoaAppTests.octest/Contents/Resources/English.lproj/Documentation
+    setenv DO_HEADER_SCANNING_IN_JAM NO
+    setenv DSTROOT /tmp/MyCocoaApp.dst
+    setenv DWARF_DSYM_FILE_NAME MyCocoaAppTests.octest.dSYM
+    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO
+    setenv DWARF_DSYM_FOLDER_PATH /Users/jdumay/Desktop/MyCocoaApp/build/Release
+    setenv EMBEDDED_PROFILE_NAME embedded.provisionprofile
+    setenv ENABLE_HEADER_DEPENDENCIES YES
+    setenv ENABLE_OPENMP_SUPPORT NO
+    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"
+    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn .git *.xcodeproj *.xcode *.pbproj *.pbxproj"
+    setenv EXECUTABLES_FOLDER_PATH MyCocoaAppTests.octest/Contents/Executables
+    setenv EXECUTABLE_FOLDER_PATH MyCocoaAppTests.octest/Contents/MacOS
+    setenv EXECUTABLE_NAME MyCocoaAppTests
+    setenv EXECUTABLE_PATH MyCocoaAppTests.octest/Contents/MacOS/MyCocoaAppTests
+    setenv FILE_LIST /Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release/MyCocoaAppTests.build/Objects/LinkFileList
+    setenv FIXED_FILES_DIR /Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release/MyCocoaAppTests.build/FixedFiles
+    setenv FRAMEWORKS_FOLDER_PATH MyCocoaAppTests.octest/Contents/Frameworks
+    setenv FRAMEWORK_FLAG_PREFIX -framework
+    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/jdumay/Desktop/MyCocoaApp/build/Release\" /Developer/Library/Frameworks"
+    setenv FRAMEWORK_VERSION A
+    setenv FULL_PRODUCT_NAME MyCocoaAppTests.octest
+    setenv GCC3_VERSION 3.3
+    setenv GCC_C_LANGUAGE_STANDARD gnu99
+    setenv GCC_ENABLE_OBJC_EXCEPTIONS YES
+    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES
+    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"
+    setenv GCC_PRECOMPILE_PREFIX_HEADER YES
+    setenv GCC_PREFIX_HEADER MyCocoaApp/MyCocoaApp-Prefix.pch
+    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO
+    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0
+    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0
+    setenv GCC_WARN_64_TO_32_BIT_CONVERSION YES
+    setenv GCC_WARN_ABOUT_MISSING_PROTOTYPES YES
+    setenv GCC_WARN_ABOUT_RETURN_TYPE YES
+    setenv GCC_WARN_UNUSED_VARIABLE YES
+    setenv GENERATE_MASTER_OBJECT_FILE NO
+    setenv GENERATE_PKGINFO_FILE NO
+    setenv GENERATE_PROFILING_CODE NO
+    setenv GID 20
+    setenv GROUP staff
+    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES
+    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES
+    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES
+    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES
+    setenv HEADER_SEARCH_PATHS "\"/Users/jdumay/Desktop/MyCocoaApp/build/Release/include\" "
+    setenv ICONV /usr/bin/iconv
+    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES
+    setenv INFOPLIST_FILE MyCocoaAppTests/MyCocoaAppTests-Info.plist
+    setenv INFOPLIST_OUTPUT_FORMAT same-as-input
+    setenv INFOPLIST_PATH MyCocoaAppTests.octest/Contents/Info.plist
+    setenv INFOPLIST_PREPROCESS NO
+    setenv INFOSTRINGS_PATH MyCocoaAppTests.octest/Contents/Resources/English.lproj/InfoPlist.strings
+    setenv INSTALL_DIR /tmp/MyCocoaApp.dst
+    setenv INSTALL_GROUP staff
+    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX
+    setenv INSTALL_OWNER jdumay
+    setenv INSTALL_ROOT /tmp/MyCocoaApp.dst
+    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"
+    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub
+    setenv JAVA_ARCHIVE_CLASSES YES
+    setenv JAVA_ARCHIVE_TYPE JAR
+    setenv JAVA_COMPILER /usr/bin/javac
+    setenv JAVA_FOLDER_PATH MyCocoaAppTests.octest/Contents/Resources/Java
+    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources
+    setenv JAVA_JAR_FLAGS cv
+    setenv JAVA_SOURCE_SUBDIR .
+    setenv JAVA_USE_DEPENDENCIES YES
+    setenv JAVA_ZIP_FLAGS -urg
+    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"
+    setenv KEEP_PRIVATE_EXTERNS NO
+    setenv LD_GENERATE_MAP_FILE NO
+    setenv LD_MAP_FILE_PATH /Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release/MyCocoaAppTests.build/MyCocoaAppTests-LinkMap-normal-i386.txt
+    setenv LD_OPENMP_FLAGS -fopenmp
+    setenv LEGACY_DEVELOPER_DIR /Developer/Library/Xcode/PrivatePlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer
+    setenv LEX /Developer/usr/bin/lex
+    setenv LIBRARY_FLAG_NOSPACE YES
+    setenv LIBRARY_FLAG_PREFIX -l
+    setenv LIBRARY_SEARCH_PATHS "\"/Users/jdumay/Desktop/MyCocoaApp/build/Release\" "
+    setenv LINKER_DISPLAYS_MANGLED_NAMES NO
+    setenv LINK_FILE_LIST_normal_i386 /Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release/MyCocoaAppTests.build/Objects-normal/i386/MyCocoaAppTests.LinkFileList
+    setenv LINK_FILE_LIST_normal_x86_64 /Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release/MyCocoaAppTests.build/Objects-normal/x86_64/MyCocoaAppTests.LinkFileList
+    setenv LINK_WITH_STANDARD_LIBRARIES YES
+    setenv LOCALIZED_RESOURCES_FOLDER_PATH MyCocoaAppTests.octest/Contents/Resources/English.lproj
+    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities
+    setenv LOCAL_APPS_DIR /Applications
+    setenv LOCAL_DEVELOPER_DIR /Library/Developer
+    setenv LOCAL_LIBRARY_DIR /Library
+    setenv MACH_O_TYPE mh_bundle
+    setenv MACOSX_DEPLOYMENT_TARGET 10.7
+    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 11A511
+    setenv MAC_OS_X_VERSION_ACTUAL 1070
+    setenv MAC_OS_X_VERSION_MAJOR 1070
+    setenv MAC_OS_X_VERSION_MINOR 0700
+    setenv NATIVE_ARCH i386
+    setenv NATIVE_ARCH_32_BIT i386
+    setenv NATIVE_ARCH_64_BIT x86_64
+    setenv NATIVE_ARCH_ACTUAL x86_64
+    setenv NO_COMMON YES
+    setenv OBJECT_FILE_DIR /Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release/MyCocoaAppTests.build/Objects
+    setenv OBJECT_FILE_DIR_normal /Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release/MyCocoaAppTests.build/Objects-normal
+    setenv OBJROOT /Users/jdumay/Desktop/MyCocoaApp/build
+    setenv ONLY_ACTIVE_ARCH NO
+    setenv OPTIMIZATION_LEVEL 0
+    setenv OS MACOS
+    setenv OSAC /usr/bin/osacompile
+    setenv PACKAGE_TYPE com.apple.package-type.wrapper
+    setenv PASCAL_STRINGS YES
+    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"
+    setenv PBDEVELOPMENTPLIST_PATH MyCocoaAppTests.octest/Contents/pbdevelopment.plist
+    setenv PFE_FILE_C_DIALECTS objective-c
+    setenv PKGINFO_FILE_PATH /Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release/MyCocoaAppTests.build/PkgInfo
+    setenv PKGINFO_PATH MyCocoaAppTests.octest/Contents/PkgInfo
+    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Applications
+    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/usr/bin
+    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Library
+    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/SDKs
+    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Tools
+    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/usr
+    setenv PLATFORM_DIR /Developer/Platforms/MacOSX.platform
+    setenv PLATFORM_NAME macosx
+    setenv PLATFORM_PREFERRED_ARCH x86_64
+    setenv PLATFORM_PRODUCT_BUILD_VERSION 4B56d
+    setenv PLIST_FILE_OUTPUT_FORMAT same-as-input
+    setenv PLUGINS_FOLDER_PATH MyCocoaAppTests.octest/Contents/PlugIns
+    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES
+    setenv PRECOMP_DESTINATION_DIR /Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release/MyCocoaAppTests.build/PrefixHeaders
+    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO
+    setenv PRIVATE_HEADERS_FOLDER_PATH MyCocoaAppTests.octest/Contents/PrivateHeaders
+    setenv PRODUCT_NAME MyCocoaAppTests
+    setenv PRODUCT_SETTINGS_PATH /Users/jdumay/Desktop/MyCocoaApp/MyCocoaAppTests/MyCocoaAppTests-Info.plist
+    setenv PRODUCT_TYPE com.apple.product-type.bundle
+    setenv PROFILING_CODE NO
+    setenv PROJECT MyCocoaApp
+    setenv PROJECT_DERIVED_FILE_DIR /Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/DerivedSources
+    setenv PROJECT_DIR /Users/jdumay/Desktop/MyCocoaApp
+    setenv PROJECT_FILE_PATH /Users/jdumay/Desktop/MyCocoaApp/MyCocoaApp.xcodeproj
+    setenv PROJECT_NAME MyCocoaApp
+    setenv PROJECT_TEMP_DIR /Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build
+    setenv PUBLIC_HEADERS_FOLDER_PATH MyCocoaAppTests.octest/Contents/Headers
+    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES
+    setenv REMOVE_CVS_FROM_RESOURCES YES
+    setenv REMOVE_GIT_FROM_RESOURCES YES
+    setenv REMOVE_SVN_FROM_RESOURCES YES
+    setenv REZ_COLLECTOR_DIR /Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release/MyCocoaAppTests.build/ResourceManagerResources
+    setenv REZ_OBJECTS_DIR /Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release/MyCocoaAppTests.build/ResourceManagerResources/Objects
+    setenv REZ_SEARCH_PATHS "\"/Users/jdumay/Desktop/MyCocoaApp/build/Release\" "
+    setenv RUN_CLANG_STATIC_ANALYZER NO
+    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO
+    setenv SCRIPTS_FOLDER_PATH MyCocoaAppTests.octest/Contents/Resources/Scripts
+    setenv SCRIPT_INPUT_FILE_COUNT 0
+    setenv SCRIPT_OUTPUT_FILE_COUNT 0
+    setenv SDKROOT /Developer/SDKs/MacOSX10.7.sdk
+    setenv SDK_DIR /Developer/SDKs/MacOSX10.7.sdk
+    setenv SDK_NAME macosx10.7
+    setenv SDK_PRODUCT_BUILD_VERSION 11A459
+    setenv SED /usr/bin/sed
+    setenv SEPARATE_STRIP NO
+    setenv SEPARATE_SYMBOL_EDIT NO
+    setenv SET_DIR_MODE_OWNER_GROUP YES
+    setenv SET_FILE_MODE_OWNER_GROUP NO
+    setenv SHARED_DERIVED_FILE_DIR /Users/jdumay/Desktop/MyCocoaApp/build/Release/DerivedSources
+    setenv SHARED_FRAMEWORKS_FOLDER_PATH MyCocoaAppTests.octest/Contents/SharedFrameworks
+    setenv SHARED_PRECOMPS_DIR /var/folders/_n/jlxjz6bj5vn67rt4t00n6xf80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders
+    setenv SHARED_SUPPORT_FOLDER_PATH MyCocoaAppTests.octest/Contents/SharedSupport
+    setenv SKIP_INSTALL YES
+    setenv SOURCE_ROOT /Users/jdumay/Desktop/MyCocoaApp
+    setenv SRCROOT /Users/jdumay/Desktop/MyCocoaApp
+    setenv STRINGS_FILE_OUTPUT_ENCODING UTF-16
+    setenv STRIP_INSTALLED_PRODUCT YES
+    setenv STRIP_STYLE non-global
+    setenv SUPPORTED_PLATFORMS macosx
+    setenv SYMBOL_REPOSITORY_DIR /Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release/MyCocoaAppTests.build/SymbolRepositories
+    setenv SYMROOT /Users/jdumay/Desktop/MyCocoaApp/build
+    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities
+    setenv SYSTEM_APPS_DIR /Applications
+    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices
+    setenv SYSTEM_DEMOS_DIR /Applications/Extras
+    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications
+    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin
+    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"
+    setenv SYSTEM_DEVELOPER_DIR /Developer
+    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"
+    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"
+    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"
+    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"
+    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"
+    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools
+    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"
+    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"
+    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr
+    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities
+    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation
+    setenv SYSTEM_LIBRARY_DIR /System/Library
+    setenv TARGETNAME MyCocoaAppTests
+    setenv TARGET_BUILD_DIR /Users/jdumay/Desktop/MyCocoaApp/build/Release
+    setenv TARGET_NAME MyCocoaAppTests
+    setenv TARGET_TEMP_DIR /Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release/MyCocoaAppTests.build
+    setenv TEMP_DIR /Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release/MyCocoaAppTests.build
+    setenv TEMP_FILES_DIR /Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release/MyCocoaAppTests.build
+    setenv TEMP_FILE_DIR /Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release/MyCocoaAppTests.build
+    setenv TEMP_ROOT /Users/jdumay/Desktop/MyCocoaApp/build
+    setenv TEST_AFTER_BUILD YES
+    setenv TEST_HOST /Users/jdumay/Desktop/MyCocoaApp/build/Release/MyCocoaApp.app/Contents/MacOS/MyCocoaApp
+    setenv UID 501
+    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH MyCocoaAppTests.octest/Contents/Resources
+    setenv UNSTRIPPED_PRODUCT NO
+    setenv USER jdumay
+    setenv USER_APPS_DIR /Users/jdumay/Applications
+    setenv USER_LIBRARY_DIR /Users/jdumay/Library
+    setenv USE_DYNAMIC_NO_PIC YES
+    setenv USE_HEADERMAP YES
+    setenv USE_HEADER_SYMLINKS NO
+    setenv VALIDATE_PRODUCT NO
+    setenv VALID_ARCHS "i386 x86_64"
+    setenv VERBOSE_PBXCP NO
+    setenv VERSIONPLIST_PATH MyCocoaAppTests.octest/Contents/version.plist
+    setenv VERSION_INFO_BUILDER jdumay
+    setenv VERSION_INFO_FILE MyCocoaAppTests_vers.c
+    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:MyCocoaAppTests  PROJECT:MyCocoaApp-\""
+    setenv WRAPPER_EXTENSION octest
+    setenv WRAPPER_NAME MyCocoaAppTests.octest
+    setenv WRAPPER_SUFFIX .octest
+    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode
+    setenv XCODE_PRODUCT_BUILD_VERSION 4B56d
+    setenv XCODE_VERSION_ACTUAL 0410
+    setenv XCODE_VERSION_MAJOR 0400
+    setenv XCODE_VERSION_MINOR 0410
+    setenv YACC /Developer/usr/bin/yacc
+    /bin/sh -c /Users/jdumay/Desktop/MyCocoaApp/build/MyCocoaApp.build/Release/MyCocoaAppTests.build/Script-0F3F6D1F13DCF7970039D5A6.sh
+/Developer/Tools/RunPlatformUnitTests.include:266: note: Started tests for architectures 'x86_64 i386'
+Run unit tests for architecture 'x86_64' (GC OFF)
+/Developer/Tools/RunPlatformUnitTests.include:273: note: Running tests for architecture 'x86_64' (GC OFF)
+objc[5067]: GC: forcing GC OFF because OBJC_DISABLE_GC is set
+Run test suite All tests
+Test Suite 'All tests' started at 2011-07-25 02:25:43 +0000
+Run test suite /Developer/Library/Frameworks/SenTestingKit.framework(Tests)
+Test Suite '/Developer/Library/Frameworks/SenTestingKit.framework(Tests)' started at 2011-07-25 02:25:43 +0000
+Run test suite SenInterfaceTestCase
+Test Suite 'SenInterfaceTestCase' started at 2011-07-25 02:25:43 +0000
+Test Suite 'SenInterfaceTestCase' finished at 2011-07-25 02:25:43 +0000.
+Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.000) seconds
+
+Test Suite '/Developer/Library/Frameworks/SenTestingKit.framework(Tests)' finished at 2011-07-25 02:25:43 +0000.
+Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.001) seconds
+
+Run test suite /Users/jdumay/Desktop/MyCocoaApp/build/Release/MyCocoaAppTests.octest(Tests)
+Test Suite '/Users/jdumay/Desktop/MyCocoaApp/build/Release/MyCocoaAppTests.octest(Tests)' started at 2011-07-25 02:25:43 +0000
+Run test suite MyCocoaAppTests
+Test Suite 'MyCocoaAppTests' started at 2011-07-25 02:25:43 +0000
+Run test case testExample
+Test Case '-[MyCocoaAppTests testExample]' started.
+2011-07-25 12:25:43.903 MyCocoaApp[5067:60b] This should be visible before the testExample test fails
+2011-07-25 12:25:45.004 MyCocoaApp[5067:60b] We should double check that we can have multiline content
+/Users/jdumay/Desktop/MyCocoaApp/MyCocoaAppTests/MyCocoaAppTests.m:32: error: -[MyCocoaAppTests testExample] : Unit tests are not implemented yet in MyCocoaAppTests
+Test Case '-[MyCocoaAppTests testExample]' failed (1.103 seconds).
+
+Run test case testShouldFail
+Test Case '-[MyCocoaAppTests testShouldFail]' started.
+2011-07-25 12:25:45.005 MyCocoaApp[5067:60b] This should be visible before the testShouldFail test fails
+/Users/jdumay/Desktop/MyCocoaApp/MyCocoaAppTests/MyCocoaAppTests.m:46: error: -[MyCocoaAppTests testShouldFail] : "FALSE" should be true. This test should fail
+Test Case '-[MyCocoaAppTests testShouldFail]' failed (3.201 seconds).
+
+Run test case testShouldPass
+Test Case '-[MyCocoaAppTests testShouldPass]' started.
+2011-07-25 12:25:48.207 MyCocoaApp[5067:60b] This should be visible before the testShouldPass test succeeds
+Test Case '-[MyCocoaAppTests testShouldPass]' passed (4.302 seconds).
+
+Test Suite 'MyCocoaAppTests' finished at 2011-07-25 02:25:52 +0000.
+Executed 3 tests, with 2 failures (0 unexpected) in 8.606 (8.606) seconds
+
+Test Suite '/Users/jdumay/Desktop/MyCocoaApp/build/Release/MyCocoaAppTests.octest(Tests)' finished at 2011-07-25 02:25:52 +0000.
+Executed 3 tests, with 2 failures (0 unexpected) in 8.606 (8.607) seconds
+
+Test Suite 'All tests' finished at 2011-07-25 02:25:52 +0000.
+Executed 3 tests, with 2 failures (0 unexpected) in 8.606 (8.609) seconds
+
+/Developer/Tools/RunPlatformUnitTests.include:336: error: Failed tests for architecture 'x86_64' (GC OFF)
+
+Run unit tests for architecture 'i386' (GC OFF)
+/Developer/Tools/RunPlatformUnitTests.include:273: note: Running tests for architecture 'i386' (GC OFF)
+objc[5072]: GC: forcing GC OFF because OBJC_DISABLE_GC is set
+Run test suite All tests
+Test Suite 'All tests' started at 2011-07-25 02:25:52 +0000
+Run test suite /Users/jdumay/Desktop/MyCocoaApp/build/Release/MyCocoaAppTests.octest(Tests)
+Test Suite '/Users/jdumay/Desktop/MyCocoaApp/build/Release/MyCocoaAppTests.octest(Tests)' started at 2011-07-25 02:25:52 +0000
+Run test suite MyCocoaAppTests
+Test Suite 'MyCocoaAppTests' started at 2011-07-25 02:25:52 +0000
+Run test case testExample
+Test Case '-[MyCocoaAppTests testExample]' started.
+2011-07-25 12:25:52.661 MyCocoaApp[5072:407] This should be visible before the testExample test fails
+2011-07-25 12:25:53.763 MyCocoaApp[5072:407] We should double check that we can have multiline content
+/Users/jdumay/Desktop/MyCocoaApp/MyCocoaAppTests/MyCocoaAppTests.m:32: error: -[MyCocoaAppTests testExample] : Unit tests are not implemented yet in MyCocoaAppTests
+Test Case '-[MyCocoaAppTests testExample]' failed (1.103 seconds).
+
+Run test case testShouldFail
+Test Case '-[MyCocoaAppTests testShouldFail]' started.
+2011-07-25 12:25:53.765 MyCocoaApp[5072:407] This should be visible before the testShouldFail test fails
+/Users/jdumay/Desktop/MyCocoaApp/MyCocoaAppTests/MyCocoaAppTests.m:46: error: -[MyCocoaAppTests testShouldFail] : "FALSE" should be true. This test should fail
+Test Case '-[MyCocoaAppTests testShouldFail]' failed (3.202 seconds).
+
+Run test case testShouldPass
+Test Case '-[MyCocoaAppTests testShouldPass]' started.
+2011-07-25 12:25:56.966 MyCocoaApp[5072:407] This should be visible before the testShouldPass test succeeds
+Test Case '-[MyCocoaAppTests testShouldPass]' passed (4.302 seconds).
+
+Test Suite 'MyCocoaAppTests' finished at 2011-07-25 02:26:01 +0000.
+Executed 3 tests, with 2 failures (0 unexpected) in 8.607 (8.608) seconds
+
+Test Suite '/Users/jdumay/Desktop/MyCocoaApp/build/Release/MyCocoaAppTests.octest(Tests)' finished at 2011-07-25 02:26:01 +0000.
+Executed 3 tests, with 2 failures (0 unexpected) in 8.607 (8.609) seconds
+
+Run test suite /Developer/Library/Frameworks/SenTestingKit.framework(Tests)
+Test Suite '/Developer/Library/Frameworks/SenTestingKit.framework(Tests)' started at 2011-07-25 02:26:01 +0000
+Run test suite SenInterfaceTestCase
+Test Suite 'SenInterfaceTestCase' started at 2011-07-25 02:26:01 +0000
+Test Suite 'SenInterfaceTestCase' finished at 2011-07-25 02:26:01 +0000.
+Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.000) seconds
+
+Test Suite '/Developer/Library/Frameworks/SenTestingKit.framework(Tests)' finished at 2011-07-25 02:26:01 +0000.
+Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.001) seconds
+
+Test Suite 'All tests' finished at 2011-07-25 02:26:01 +0000.
+Executed 3 tests, with 2 failures (0 unexpected) in 8.607 (8.611) seconds
+
+/Developer/Tools/RunPlatformUnitTests.include:336: error: Failed tests for architecture 'i386' (GC OFF)
+
+/Developer/Tools/RunPlatformUnitTests.include:345: note: Completed tests for architectures 'x86_64 i386'
+
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	PhaseScriptExecution "Run Script" build/MyCocoaApp.build/Release/MyCocoaAppTests.build/Script-0F3F6D1F13DCF7970039D5A6.sh
+(1 failure)
+ 
