@@ -2,7 +2,8 @@
 .project
 .settings
 .idea
-target
+target/**
+!target/*.jar
 *.iml
 *.ipr
 *.iws
